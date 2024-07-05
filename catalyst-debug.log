@@ -1,0 +1,899 @@
+[debug] [2024-07-02T14:10:10.674Z] : 
+[debug] [2024-07-02T14:10:10.675Z] : ----------------------------------------------------------------------
+[debug] [2024-07-02T14:10:10.676Z] : Command:      C:\Program Files\nodejs\node.exe C:\Users\ACVL-DIPIN KUMAR\AppData\Roaming\npm\node_modules\zcatalyst-cli\lib\bin\catalyst.js serve
+[debug] [2024-07-02T14:10:10.676Z] : CLI Version:  1.17.5
+[debug] [2024-07-02T14:10:10.676Z] : Platform:     win32
+[debug] [2024-07-02T14:10:10.676Z] : Node Version: v20.13.1
+[debug] [2024-07-02T14:10:10.676Z] : Time:         Tue Jul 02 2024 19:40:10 GMT+0530 (India Standard Time)
+[debug] [2024-07-02T14:10:10.677Z] : ----------------------------------------------------------------------
+[debug] [2024-07-02T14:10:10.677Z] : 
+[debug] [2024-07-02T14:10:11.166Z] : > authorizing via signed-in user option
+[debug] [2024-07-02T14:10:11.167Z] : > command requires scopes: ["ZohoCatalyst.projects.ALL","ZohoCatalyst.functions.ALL","ZohoCatalyst.functions.EXECUTE","ZohoCatalyst.webapp.ALL","ZohoCatalyst.pdfshot.execute"]
+[debug] [2024-07-02T14:10:11.176Z] : >>>> HTTP REQUEST : GET https://api.catalyst.zoho.com/baas/v1/project/23165000000054103 
+
+[debug] [2024-07-02T14:10:12.031Z] : <<<< HTTP RESPONSE : 200
+Response Headers: {"server":"ZGS","date":"Tue, 02 Jul 2024 14:10:12 GMT","content-type":"application/vnd.catalyst.v2+json","transfer-encoding":"chunked","connection":"keep-alive","set-cookie":["zalb_46512fd555=bbdfb771565421abbe10f7a180903d28; Path=/","ZD_CSRF_TOKEN=feaef7d5-4f4c-4325-80eb-586af0f995a4;path=/;SameSite=None;Secure;priority=high","_zcsr_tmp=feaef7d5-4f4c-4325-80eb-586af0f995a4;path=/;SameSite=Strict;Secure;priority=high"],"x-content-type-options":"nosniff","x-xss-protection":"1","cache-control":"private,no-cache,no-store,max-age=0,must-revalidate","pragma":"no-cache","expires":"Thu, 01 Jan 1970 00:00:00 GMT","x-frame-options":"DENY","strict-transport-security":"max-age=63072000"}
+
+[debug] [2024-07-02T14:10:12.034Z] : >>>> HTTP REQUEST : GET https://api.catalyst.zoho.com/baas/v1/project/23165000000054103/environment 
+
+[debug] [2024-07-02T14:10:12.363Z] : <<<< HTTP RESPONSE : 200
+Response Headers: {"server":"ZGS","date":"Tue, 02 Jul 2024 14:10:12 GMT","content-type":"application/vnd.catalyst.v2+json","transfer-encoding":"chunked","connection":"keep-alive","set-cookie":["zalb_46512fd555=63dd9cf89a6678b816d9580ec827ee61; Path=/","ZD_CSRF_TOKEN=c0242039-2289-420b-9df6-4dd6bd7887dc;path=/;SameSite=None;Secure;priority=high","_zcsr_tmp=c0242039-2289-420b-9df6-4dd6bd7887dc;path=/;SameSite=Strict;Secure;priority=high"],"x-content-type-options":"nosniff","x-xss-protection":"1","cache-control":"private,no-cache,no-store,max-age=0,must-revalidate","pragma":"no-cache","expires":"Thu, 01 Jan 1970 00:00:00 GMT","x-frame-options":"DENY","strict-transport-security":"max-age=63072000"}
+
+[debug] [2024-07-02T14:10:12.497Z] : http port : '3000' is not available. Hence port '3004' will be used instead.
+[debug] [2024-07-02T14:10:12.511Z] : http port : '3000' is not available. Hence port '3005' will be used instead.
+[debug] [2024-07-02T14:10:12.515Z] : No basic functions to add
+[info] [2024-07-02T14:10:12.516Z] : 
+[info] [2024-07-02T14:10:12.516Z] : Executing AppSail [PRESERVE] [AppSail] script in C:\Users\ACVL-DIPIN KUMAR\Documents\acvluser\ACVL-CREW-BACKEND\appsail-nodejs
+[debug] [2024-07-02T14:10:12.516Z] : Executing command > npm install
+[info] [2024-07-02T14:10:12.516Z] : > npm install
+[info] [2024-07-02T14:10:13.769Z] : 
+[info] [2024-07-02T14:10:13.769Z] :  >>>>>>>>>>>>>> AppSail <<<<<<<<<<<<<< 
+[info] [2024-07-02T14:10:13.770Z] : i AppSail: http://localhost:3005
+[info] [2024-07-02T14:10:13.770Z] : 
+[debug] [2024-07-02T14:12:20.329Z] : 
+[debug] [2024-07-02T14:12:20.330Z] : ----------------------------------------------------------------------
+[debug] [2024-07-02T14:12:20.330Z] : Command:      C:\Program Files\nodejs\node.exe C:\Users\ACVL-DIPIN KUMAR\AppData\Roaming\npm\node_modules\zcatalyst-cli\lib\bin\catalyst.js deploy
+[debug] [2024-07-02T14:12:20.331Z] : CLI Version:  1.17.5
+[debug] [2024-07-02T14:12:20.331Z] : Platform:     win32
+[debug] [2024-07-02T14:12:20.331Z] : Node Version: v20.13.1
+[debug] [2024-07-02T14:12:20.331Z] : Time:         Tue Jul 02 2024 19:42:20 GMT+0530 (India Standard Time)
+[debug] [2024-07-02T14:12:20.331Z] : ----------------------------------------------------------------------
+[debug] [2024-07-02T14:12:20.331Z] : 
+[debug] [2024-07-02T14:12:20.817Z] : > authorizing via signed-in user option
+[debug] [2024-07-02T14:12:20.817Z] : > command requires scopes: ["ZohoCatalyst.projects.ALL","ZohoCatalyst.functions.ALL","ZohoCatalyst.webapp.ALL","ZohoCatalyst.appsail.Update"]
+[debug] [2024-07-02T14:12:20.827Z] : >>>> HTTP REQUEST : GET https://api.catalyst.zoho.com/baas/v1/project/23165000000054103 
+
+[debug] [2024-07-02T14:12:21.812Z] : <<<< HTTP RESPONSE : 200
+Response Headers: {"server":"ZGS","date":"Tue, 02 Jul 2024 14:12:21 GMT","content-type":"application/vnd.catalyst.v2+json","transfer-encoding":"chunked","connection":"keep-alive","set-cookie":["zalb_46512fd555=63dd9cf89a6678b816d9580ec827ee61; Path=/","ZD_CSRF_TOKEN=e2525f5b-cbae-4e65-b536-dd88cf984939;path=/;SameSite=None;Secure;priority=high","_zcsr_tmp=e2525f5b-cbae-4e65-b536-dd88cf984939;path=/;SameSite=Strict;Secure;priority=high"],"x-content-type-options":"nosniff","x-xss-protection":"1","cache-control":"private,no-cache,no-store,max-age=0,must-revalidate","pragma":"no-cache","expires":"Thu, 01 Jan 1970 00:00:00 GMT","x-frame-options":"DENY","strict-transport-security":"max-age=63072000"}
+
+[debug] [2024-07-02T14:12:21.818Z] : >>>> HTTP REQUEST : GET https://api.catalyst.zoho.com/baas/v1/project/23165000000054103/environment 
+
+[debug] [2024-07-02T14:12:22.133Z] : <<<< HTTP RESPONSE : 200
+Response Headers: {"server":"ZGS","date":"Tue, 02 Jul 2024 14:12:22 GMT","content-type":"application/vnd.catalyst.v2+json","transfer-encoding":"chunked","connection":"keep-alive","set-cookie":["zalb_46512fd555=04d9a2d1e2e86744f9516a3e9f805f56; Path=/","ZD_CSRF_TOKEN=5c1c5f00-2c01-4c45-a122-337f790bf8f6;path=/;SameSite=None;Secure;priority=high","_zcsr_tmp=5c1c5f00-2c01-4c45-a122-337f790bf8f6;path=/;SameSite=Strict;Secure;priority=high"],"x-content-type-options":"nosniff","x-xss-protection":"1","cache-control":"private,no-cache,no-store,max-age=0,must-revalidate","pragma":"no-cache","expires":"Thu, 01 Jan 1970 00:00:00 GMT","x-frame-options":"DENY","strict-transport-security":"max-age=63072000"}
+
+[info] [2024-07-02T14:12:22.155Z] : 
+[info] [2024-07-02T14:12:22.156Z] : Executing predeploy script in C:\Users\ACVL-DIPIN KUMAR\Documents\acvluser\ACVL-CREW-BACKEND\appsail-nodejs
+[debug] [2024-07-02T14:12:22.156Z] : Executing command > npm install
+[info] [2024-07-02T14:12:22.156Z] : > npm install
+[debug] [2024-07-02T14:12:24.229Z] : >>>> HTTP REQUEST : PUT https://api.catalyst.zoho.com/baas/v1/project/23165000000054103/appsail/upsert 
+
+[debug] [2024-07-02T14:12:37.337Z] : <<<< HTTP RESPONSE : 200
+Response Headers: {"server":"ZGS","date":"Tue, 02 Jul 2024 14:12:37 GMT","content-type":"application/vnd.catalyst.v2+json","transfer-encoding":"chunked","connection":"keep-alive","set-cookie":["zalb_46512fd555=00fd3a8cbff58bc9307e4ac5869875ce; Path=/","ZD_CSRF_TOKEN=187e15ea-0d10-458f-8532-813ff66ad35a;path=/;SameSite=None;Secure;priority=high","_zcsr_tmp=187e15ea-0d10-458f-8532-813ff66ad35a;path=/;SameSite=Strict;Secure;priority=high"],"x-content-type-options":"nosniff","x-xss-protection":"1","cache-control":"private,no-cache,no-store,max-age=0,must-revalidate","pragma":"no-cache","expires":"Thu, 01 Jan 1970 00:00:00 GMT","x-frame-options":"DENY","strict-transport-security":"max-age=63072000"}
+
+[info] [2024-07-02T14:12:37.339Z] : 
+[info] [2024-07-02T14:12:37.340Z] : i AppSail(AppSail): URL => https://appsail-10083401023.development.catalystappsail.com
+[info] [2024-07-02T14:12:37.340Z] : √ AppSail(AppSail): deploy successful
+[info] [2024-07-02T14:12:37.340Z] : 
+[info] [2024-07-02T14:12:37.340Z] : √ Catalyst deploy complete!
+[debug] [2024-07-02T14:12:37.341Z] : NO ERRORS REGISTERED
+[debug] [2024-07-02T14:12:37.341Z] : EXEC ENDED with event: deploy, message: success
+[debug] [2024-07-02T14:12:37.341Z] : TOTAL DURATION OF COMMAND EXEC : 16533
+[debug] [2024-07-02T14:12:37.373Z] : >>>> HTTP REQUEST : POST https://api.catalyst.zoho.com/baas/v1/cli/logs 
+<request body omitted>
+
+[debug] [2024-07-02T14:12:38.280Z] : <<<< HTTP RESPONSE : 400
+Response Headers: {"server":"ZGS","date":"Tue, 02 Jul 2024 14:12:38 GMT","content-type":"application/json;charset=ISO-8859-1","content-length":"141","connection":"keep-alive","set-cookie":["zalb_46512fd555=00fd3a8cbff58bc9307e4ac5869875ce; Path=/","JSESSIONID=2DC2452C4A0885B23E93A1B5F43C4392; Path=/; Secure; HttpOnly"],"x-content-type-options":"nosniff","x-xss-protection":"1","x-frame-options":"DENY","strict-transport-security":"max-age=63072000"}
+
+[debug] [2024-07-02T14:12:38.280Z] : Response Body : {"status":"failure","data":{"error_code":"MORE_THAN_MAX_LENGTH","message":"Please check if the length of the input is in the correct range"}}
+
+[debug] [2024-07-02T14:12:38.281Z] : Unable to send debug log to server: HTTP Error: 400, Please check if the length of the input is in the correct range
+[debug] [2024-07-02T14:24:31.845Z] : 
+[debug] [2024-07-02T14:24:31.846Z] : ----------------------------------------------------------------------
+[debug] [2024-07-02T14:24:31.847Z] : Command:      C:\Program Files\nodejs\node.exe C:\Users\ACVL-DIPIN KUMAR\AppData\Roaming\npm\node_modules\zcatalyst-cli\lib\bin\catalyst.js deploy
+[debug] [2024-07-02T14:24:31.847Z] : CLI Version:  1.17.5
+[debug] [2024-07-02T14:24:31.847Z] : Platform:     win32
+[debug] [2024-07-02T14:24:31.847Z] : Node Version: v20.13.1
+[debug] [2024-07-02T14:24:31.847Z] : Time:         Tue Jul 02 2024 19:54:31 GMT+0530 (India Standard Time)
+[debug] [2024-07-02T14:24:31.848Z] : ----------------------------------------------------------------------
+[debug] [2024-07-02T14:24:31.848Z] : 
+[debug] [2024-07-02T14:24:32.322Z] : > authorizing via signed-in user option
+[debug] [2024-07-02T14:24:32.323Z] : > command requires scopes: ["ZohoCatalyst.projects.ALL","ZohoCatalyst.functions.ALL","ZohoCatalyst.webapp.ALL","ZohoCatalyst.appsail.Update"]
+[debug] [2024-07-02T14:24:32.333Z] : >>>> HTTP REQUEST : GET https://api.catalyst.zoho.com/baas/v1/project/23165000000054103 
+
+[debug] [2024-07-02T14:24:33.432Z] : <<<< HTTP RESPONSE : 200
+Response Headers: {"server":"ZGS","date":"Tue, 02 Jul 2024 14:24:33 GMT","content-type":"application/vnd.catalyst.v2+json","transfer-encoding":"chunked","connection":"keep-alive","set-cookie":["zalb_46512fd555=bbdfb771565421abbe10f7a180903d28; Path=/","ZD_CSRF_TOKEN=1c8ccefb-87e2-4f0d-8c94-e9ac3aa1a4d5;path=/;SameSite=None;Secure;priority=high","_zcsr_tmp=1c8ccefb-87e2-4f0d-8c94-e9ac3aa1a4d5;path=/;SameSite=Strict;Secure;priority=high"],"x-content-type-options":"nosniff","x-xss-protection":"1","cache-control":"private,no-cache,no-store,max-age=0,must-revalidate","pragma":"no-cache","expires":"Thu, 01 Jan 1970 00:00:00 GMT","x-frame-options":"DENY","strict-transport-security":"max-age=63072000"}
+
+[debug] [2024-07-02T14:24:33.435Z] : >>>> HTTP REQUEST : GET https://api.catalyst.zoho.com/baas/v1/project/23165000000054103/environment 
+
+[debug] [2024-07-02T14:24:33.828Z] : <<<< HTTP RESPONSE : 200
+Response Headers: {"server":"ZGS","date":"Tue, 02 Jul 2024 14:24:33 GMT","content-type":"application/vnd.catalyst.v2+json","transfer-encoding":"chunked","connection":"keep-alive","set-cookie":["zalb_46512fd555=63dd9cf89a6678b816d9580ec827ee61; Path=/","ZD_CSRF_TOKEN=6b6d9734-e470-43b3-bdf3-d1680f5f6e47;path=/;SameSite=None;Secure;priority=high","_zcsr_tmp=6b6d9734-e470-43b3-bdf3-d1680f5f6e47;path=/;SameSite=Strict;Secure;priority=high"],"x-content-type-options":"nosniff","x-xss-protection":"1","cache-control":"private,no-cache,no-store,max-age=0,must-revalidate","pragma":"no-cache","expires":"Thu, 01 Jan 1970 00:00:00 GMT","x-frame-options":"DENY","strict-transport-security":"max-age=63072000"}
+
+[info] [2024-07-02T14:24:33.839Z] : 
+[info] [2024-07-02T14:24:33.840Z] : Executing predeploy script in C:\Users\ACVL-DIPIN KUMAR\Documents\acvluser\ACVL-CREW-BACKEND\appsail-nodejs
+[debug] [2024-07-02T14:24:33.840Z] : Executing command > npm install
+[info] [2024-07-02T14:24:33.840Z] : > npm install
+[debug] [2024-07-02T14:24:36.021Z] : >>>> HTTP REQUEST : PUT https://api.catalyst.zoho.com/baas/v1/project/23165000000054103/appsail/upsert 
+
+[debug] [2024-07-02T14:24:43.842Z] : <<<< HTTP RESPONSE : 200
+Response Headers: {"server":"ZGS","date":"Tue, 02 Jul 2024 14:24:43 GMT","content-type":"application/vnd.catalyst.v2+json","transfer-encoding":"chunked","connection":"keep-alive","set-cookie":["zalb_46512fd555=04d9a2d1e2e86744f9516a3e9f805f56; Path=/","ZD_CSRF_TOKEN=5078978e-fe39-4004-81b2-2f8fd88f10ec;path=/;SameSite=None;Secure;priority=high","_zcsr_tmp=5078978e-fe39-4004-81b2-2f8fd88f10ec;path=/;SameSite=Strict;Secure;priority=high"],"x-content-type-options":"nosniff","x-xss-protection":"1","cache-control":"private,no-cache,no-store,max-age=0,must-revalidate","pragma":"no-cache","expires":"Thu, 01 Jan 1970 00:00:00 GMT","x-frame-options":"DENY","strict-transport-security":"max-age=63072000"}
+
+[info] [2024-07-02T14:24:43.844Z] : 
+[info] [2024-07-02T14:24:43.844Z] : i AppSail(AppSail): URL => https://appsail-10083401023.development.catalystappsail.com
+[info] [2024-07-02T14:24:43.845Z] : √ AppSail(AppSail): deploy successful
+[info] [2024-07-02T14:24:43.845Z] : 
+[info] [2024-07-02T14:24:43.845Z] : √ Catalyst deploy complete!
+[debug] [2024-07-02T14:24:43.846Z] : NO ERRORS REGISTERED
+[debug] [2024-07-02T14:24:43.846Z] : EXEC ENDED with event: deploy, message: success
+[debug] [2024-07-02T14:24:43.846Z] : TOTAL DURATION OF COMMAND EXEC : 11533
+[debug] [2024-07-02T14:24:43.875Z] : >>>> HTTP REQUEST : POST https://api.catalyst.zoho.com/baas/v1/cli/logs 
+<request body omitted>
+
+[debug] [2024-07-02T14:24:44.474Z] : <<<< HTTP RESPONSE : 400
+Response Headers: {"server":"ZGS","date":"Tue, 02 Jul 2024 14:24:44 GMT","content-type":"application/json;charset=ISO-8859-1","content-length":"141","connection":"keep-alive","set-cookie":["zalb_46512fd555=00fd3a8cbff58bc9307e4ac5869875ce; Path=/","JSESSIONID=C89F5AECEA7691BB5C02390BAFF2F3E3; Path=/; Secure; HttpOnly"],"x-content-type-options":"nosniff","x-xss-protection":"1","x-frame-options":"DENY","strict-transport-security":"max-age=63072000"}
+
+[debug] [2024-07-02T14:24:44.475Z] : Response Body : {"status":"failure","data":{"error_code":"MORE_THAN_MAX_LENGTH","message":"Please check if the length of the input is in the correct range"}}
+
+[debug] [2024-07-02T14:24:44.476Z] : Unable to send debug log to server: HTTP Error: 400, Please check if the length of the input is in the correct range
+[debug] [2024-07-04T12:06:17.891Z] : 
+[debug] [2024-07-04T12:06:17.893Z] : ----------------------------------------------------------------------
+[debug] [2024-07-04T12:06:17.893Z] : Command:      C:\Program Files\nodejs\node.exe C:\Users\ACVL-DIPIN KUMAR\AppData\Roaming\npm\node_modules\zcatalyst-cli\lib\bin\catalyst.js deploy
+[debug] [2024-07-04T12:06:17.893Z] : CLI Version:  1.17.5
+[debug] [2024-07-04T12:06:17.893Z] : Platform:     win32
+[debug] [2024-07-04T12:06:17.893Z] : Node Version: v20.13.1
+[debug] [2024-07-04T12:06:17.893Z] : Time:         Thu Jul 04 2024 17:36:17 GMT+0530 (India Standard Time)
+[debug] [2024-07-04T12:06:17.894Z] : ----------------------------------------------------------------------
+[debug] [2024-07-04T12:06:17.894Z] : 
+[debug] [2024-07-04T12:06:18.439Z] : > authorizing via signed-in user option
+[debug] [2024-07-04T12:06:18.439Z] : > command requires scopes: ["ZohoCatalyst.projects.ALL","ZohoCatalyst.functions.ALL","ZohoCatalyst.webapp.ALL","ZohoCatalyst.appsail.Update"]
+[debug] [2024-07-04T12:06:18.449Z] : >>>> HTTP REQUEST : GET https://api.catalyst.zoho.com/baas/v1/project/23165000000054103 
+
+[debug] [2024-07-04T12:06:19.374Z] : <<<< HTTP RESPONSE : 200
+Response Headers: {"server":"ZGS","date":"Thu, 04 Jul 2024 12:06:19 GMT","content-type":"application/vnd.catalyst.v2+json","transfer-encoding":"chunked","connection":"keep-alive","set-cookie":["zalb_46512fd555=00fd3a8cbff58bc9307e4ac5869875ce; Path=/","ZD_CSRF_TOKEN=e2891b5a-02db-42c2-922d-020fd4f7c809;path=/;SameSite=None;Secure;priority=high","_zcsr_tmp=e2891b5a-02db-42c2-922d-020fd4f7c809;path=/;SameSite=Strict;Secure;priority=high"],"x-content-type-options":"nosniff","x-xss-protection":"1","cache-control":"private,no-cache,no-store,max-age=0,must-revalidate","pragma":"no-cache","expires":"Thu, 01 Jan 1970 00:00:00 GMT","x-frame-options":"DENY","strict-transport-security":"max-age=63072000"}
+
+[debug] [2024-07-04T12:06:19.377Z] : >>>> HTTP REQUEST : GET https://api.catalyst.zoho.com/baas/v1/project/23165000000054103/environment 
+
+[debug] [2024-07-04T12:06:19.662Z] : <<<< HTTP RESPONSE : 200
+Response Headers: {"server":"ZGS","date":"Thu, 04 Jul 2024 12:06:19 GMT","content-type":"application/vnd.catalyst.v2+json","transfer-encoding":"chunked","connection":"keep-alive","set-cookie":["zalb_46512fd555=bbdfb771565421abbe10f7a180903d28; Path=/","ZD_CSRF_TOKEN=2b3d0b5d-a6ab-489d-abbe-090d2c382a53;path=/;SameSite=None;Secure;priority=high","_zcsr_tmp=2b3d0b5d-a6ab-489d-abbe-090d2c382a53;path=/;SameSite=Strict;Secure;priority=high"],"x-content-type-options":"nosniff","x-xss-protection":"1","cache-control":"private,no-cache,no-store,max-age=0,must-revalidate","pragma":"no-cache","expires":"Thu, 01 Jan 1970 00:00:00 GMT","x-frame-options":"DENY","strict-transport-security":"max-age=63072000"}
+
+[info] [2024-07-04T12:06:19.685Z] : 
+[info] [2024-07-04T12:06:19.686Z] : Executing predeploy script in C:\Users\ACVL-DIPIN KUMAR\Documents\acvluser\ACVL-CREW-BACKEND\appsail-nodejs
+[debug] [2024-07-04T12:06:19.686Z] : Executing command > npm install
+[info] [2024-07-04T12:06:19.686Z] : > npm install
+[debug] [2024-07-04T12:06:21.741Z] : >>>> HTTP REQUEST : PUT https://api.catalyst.zoho.com/baas/v1/project/23165000000054103/appsail/upsert 
+
+[debug] [2024-07-04T12:06:32.746Z] : <<<< HTTP RESPONSE : 200
+Response Headers: {"server":"ZGS","date":"Thu, 04 Jul 2024 12:06:32 GMT","content-type":"application/vnd.catalyst.v2+json","transfer-encoding":"chunked","connection":"keep-alive","set-cookie":["zalb_46512fd555=bbdfb771565421abbe10f7a180903d28; Path=/","ZD_CSRF_TOKEN=6f3aafa6-2fea-4c24-a8f6-1afd176269e0;path=/;SameSite=None;Secure;priority=high","_zcsr_tmp=6f3aafa6-2fea-4c24-a8f6-1afd176269e0;path=/;SameSite=Strict;Secure;priority=high"],"x-content-type-options":"nosniff","x-xss-protection":"1","cache-control":"private,no-cache,no-store,max-age=0,must-revalidate","pragma":"no-cache","expires":"Thu, 01 Jan 1970 00:00:00 GMT","x-frame-options":"DENY","strict-transport-security":"max-age=63072000"}
+
+[info] [2024-07-04T12:06:32.751Z] : 
+[info] [2024-07-04T12:06:32.752Z] : i AppSail(AppSail): URL => https://appsail-10083401023.development.catalystappsail.com
+[info] [2024-07-04T12:06:32.752Z] : √ AppSail(AppSail): deploy successful
+[info] [2024-07-04T12:06:32.753Z] : 
+[info] [2024-07-04T12:06:32.753Z] : √ Catalyst deploy complete!
+[debug] [2024-07-04T12:06:32.754Z] : NO ERRORS REGISTERED
+[debug] [2024-07-04T12:06:32.754Z] : EXEC ENDED with event: deploy, message: success
+[debug] [2024-07-04T12:06:32.754Z] : TOTAL DURATION OF COMMAND EXEC : 14323
+[debug] [2024-07-04T12:06:32.785Z] : >>>> HTTP REQUEST : POST https://api.catalyst.zoho.com/baas/v1/cli/logs 
+<request body omitted>
+
+[debug] [2024-07-04T12:06:33.398Z] : <<<< HTTP RESPONSE : 400
+Response Headers: {"server":"ZGS","date":"Thu, 04 Jul 2024 12:06:33 GMT","content-type":"application/json;charset=ISO-8859-1","content-length":"141","connection":"keep-alive","set-cookie":["zalb_46512fd555=00fd3a8cbff58bc9307e4ac5869875ce; Path=/","JSESSIONID=D5BE32C3641EB69DA9CB3C7B21EA382B; Path=/; Secure; HttpOnly"],"x-content-type-options":"nosniff","x-xss-protection":"1","x-frame-options":"DENY","strict-transport-security":"max-age=63072000"}
+
+[debug] [2024-07-04T12:06:33.400Z] : Response Body : {"status":"failure","data":{"error_code":"MORE_THAN_MAX_LENGTH","message":"Please check if the length of the input is in the correct range"}}
+
+[debug] [2024-07-04T12:06:33.402Z] : Unable to send debug log to server: HTTP Error: 400, Please check if the length of the input is in the correct range
+[debug] [2024-07-04T13:29:20.310Z] : 
+[debug] [2024-07-04T13:29:20.311Z] : ----------------------------------------------------------------------
+[debug] [2024-07-04T13:29:20.311Z] : Command:      C:\Program Files\nodejs\node.exe C:\Users\ACVL-DIPIN KUMAR\AppData\Roaming\npm\node_modules\zcatalyst-cli\lib\bin\catalyst.js deploy
+[debug] [2024-07-04T13:29:20.311Z] : CLI Version:  1.17.5
+[debug] [2024-07-04T13:29:20.312Z] : Platform:     win32
+[debug] [2024-07-04T13:29:20.312Z] : Node Version: v20.13.1
+[debug] [2024-07-04T13:29:20.312Z] : Time:         Thu Jul 04 2024 18:59:20 GMT+0530 (India Standard Time)
+[debug] [2024-07-04T13:29:20.312Z] : ----------------------------------------------------------------------
+[debug] [2024-07-04T13:29:20.312Z] : 
+[debug] [2024-07-04T13:29:20.905Z] : > authorizing via signed-in user option
+[debug] [2024-07-04T13:29:20.905Z] : > command requires scopes: ["ZohoCatalyst.projects.ALL","ZohoCatalyst.functions.ALL","ZohoCatalyst.webapp.ALL","ZohoCatalyst.appsail.Update"]
+[debug] [2024-07-04T13:29:20.915Z] : >>>> HTTP REQUEST : GET https://api.catalyst.zoho.com/baas/v1/project/23165000000054103 
+
+[debug] [2024-07-04T13:29:22.082Z] : <<<< HTTP RESPONSE : 200
+Response Headers: {"server":"ZGS","date":"Thu, 04 Jul 2024 13:29:22 GMT","content-type":"application/vnd.catalyst.v2+json","transfer-encoding":"chunked","connection":"keep-alive","set-cookie":["zalb_46512fd555=bbdfb771565421abbe10f7a180903d28; Path=/","ZD_CSRF_TOKEN=8cfebfb0-5c0b-4082-a4a1-c33aeb81c974;path=/;SameSite=None;Secure;priority=high","_zcsr_tmp=8cfebfb0-5c0b-4082-a4a1-c33aeb81c974;path=/;SameSite=Strict;Secure;priority=high"],"x-content-type-options":"nosniff","x-xss-protection":"1","cache-control":"private,no-cache,no-store,max-age=0,must-revalidate","pragma":"no-cache","expires":"Thu, 01 Jan 1970 00:00:00 GMT","x-frame-options":"DENY","strict-transport-security":"max-age=63072000"}
+
+[debug] [2024-07-04T13:29:22.088Z] : >>>> HTTP REQUEST : GET https://api.catalyst.zoho.com/baas/v1/project/23165000000054103/environment 
+
+[debug] [2024-07-04T13:29:22.398Z] : <<<< HTTP RESPONSE : 200
+Response Headers: {"server":"ZGS","date":"Thu, 04 Jul 2024 13:29:22 GMT","content-type":"application/vnd.catalyst.v2+json","transfer-encoding":"chunked","connection":"keep-alive","set-cookie":["zalb_46512fd555=63dd9cf89a6678b816d9580ec827ee61; Path=/","ZD_CSRF_TOKEN=67ee07ef-016e-42d9-a921-e976fdc4dffb;path=/;SameSite=None;Secure;priority=high","_zcsr_tmp=67ee07ef-016e-42d9-a921-e976fdc4dffb;path=/;SameSite=Strict;Secure;priority=high"],"x-content-type-options":"nosniff","x-xss-protection":"1","cache-control":"private,no-cache,no-store,max-age=0,must-revalidate","pragma":"no-cache","expires":"Thu, 01 Jan 1970 00:00:00 GMT","x-frame-options":"DENY","strict-transport-security":"max-age=63072000"}
+
+[info] [2024-07-04T13:29:22.419Z] : 
+[info] [2024-07-04T13:29:22.419Z] : Executing predeploy script in C:\Users\ACVL-DIPIN KUMAR\Documents\acvluser\ACVL-CREW-BACKEND\appsail-nodejs
+[debug] [2024-07-04T13:29:22.419Z] : Executing command > npm install
+[info] [2024-07-04T13:29:22.419Z] : > npm install
+[debug] [2024-07-04T13:29:25.130Z] : >>>> HTTP REQUEST : PUT https://api.catalyst.zoho.com/baas/v1/project/23165000000054103/appsail/upsert 
+
+[debug] [2024-07-04T13:29:38.650Z] : <<<< HTTP RESPONSE : 200
+Response Headers: {"server":"ZGS","date":"Thu, 04 Jul 2024 13:29:38 GMT","content-type":"application/vnd.catalyst.v2+json","transfer-encoding":"chunked","connection":"keep-alive","set-cookie":["zalb_46512fd555=00fd3a8cbff58bc9307e4ac5869875ce; Path=/","ZD_CSRF_TOKEN=efc2fc50-c898-4c9e-b2f3-8d2109393ef3;path=/;SameSite=None;Secure;priority=high","_zcsr_tmp=efc2fc50-c898-4c9e-b2f3-8d2109393ef3;path=/;SameSite=Strict;Secure;priority=high"],"x-content-type-options":"nosniff","x-xss-protection":"1","cache-control":"private,no-cache,no-store,max-age=0,must-revalidate","pragma":"no-cache","expires":"Thu, 01 Jan 1970 00:00:00 GMT","x-frame-options":"DENY","strict-transport-security":"max-age=63072000"}
+
+[info] [2024-07-04T13:29:38.658Z] : 
+[info] [2024-07-04T13:29:38.659Z] : i AppSail(AppSail): URL => https://appsail-10083401023.development.catalystappsail.com
+[info] [2024-07-04T13:29:38.660Z] : √ AppSail(AppSail): deploy successful
+[info] [2024-07-04T13:29:38.660Z] : 
+[info] [2024-07-04T13:29:38.660Z] : √ Catalyst deploy complete!
+[debug] [2024-07-04T13:29:38.661Z] : NO ERRORS REGISTERED
+[debug] [2024-07-04T13:29:38.661Z] : EXEC ENDED with event: deploy, message: success
+[debug] [2024-07-04T13:29:38.661Z] : TOTAL DURATION OF COMMAND EXEC : 17764
+[debug] [2024-07-04T13:29:38.712Z] : >>>> HTTP REQUEST : POST https://api.catalyst.zoho.com/baas/v1/cli/logs 
+<request body omitted>
+
+[debug] [2024-07-04T13:29:39.364Z] : <<<< HTTP RESPONSE : 400
+Response Headers: {"server":"ZGS","date":"Thu, 04 Jul 2024 13:29:39 GMT","content-type":"application/json;charset=ISO-8859-1","content-length":"141","connection":"keep-alive","set-cookie":["zalb_46512fd555=bbdfb771565421abbe10f7a180903d28; Path=/","JSESSIONID=BFC50F524836CEFE60D807D39F6D0BE2; Path=/; Secure; HttpOnly"],"x-content-type-options":"nosniff","x-xss-protection":"1","x-frame-options":"DENY","strict-transport-security":"max-age=63072000"}
+
+[debug] [2024-07-04T13:29:39.366Z] : Response Body : {"status":"failure","data":{"error_code":"MORE_THAN_MAX_LENGTH","message":"Please check if the length of the input is in the correct range"}}
+
+[debug] [2024-07-04T13:29:39.369Z] : Unable to send debug log to server: HTTP Error: 400, Please check if the length of the input is in the correct range
+[debug] [2024-07-04T13:58:57.779Z] : 
+[debug] [2024-07-04T13:58:57.781Z] : ----------------------------------------------------------------------
+[debug] [2024-07-04T13:58:57.781Z] : Command:      C:\Program Files\nodejs\node.exe C:\Users\ACVL-DIPIN KUMAR\AppData\Roaming\npm\node_modules\zcatalyst-cli\lib\bin\catalyst.js deploy
+[debug] [2024-07-04T13:58:57.781Z] : CLI Version:  1.17.5
+[debug] [2024-07-04T13:58:57.781Z] : Platform:     win32
+[debug] [2024-07-04T13:58:57.781Z] : Node Version: v20.13.1
+[debug] [2024-07-04T13:58:57.782Z] : Time:         Thu Jul 04 2024 19:28:57 GMT+0530 (India Standard Time)
+[debug] [2024-07-04T13:58:57.782Z] : ----------------------------------------------------------------------
+[debug] [2024-07-04T13:58:57.782Z] : 
+[debug] [2024-07-04T13:58:58.373Z] : > authorizing via signed-in user option
+[debug] [2024-07-04T13:58:58.373Z] : > command requires scopes: ["ZohoCatalyst.projects.ALL","ZohoCatalyst.functions.ALL","ZohoCatalyst.webapp.ALL","ZohoCatalyst.appsail.Update"]
+[debug] [2024-07-04T13:58:58.383Z] : >>>> HTTP REQUEST : GET https://api.catalyst.zoho.com/baas/v1/project/23165000000054103 
+
+[debug] [2024-07-04T13:58:59.406Z] : <<<< HTTP RESPONSE : 200
+Response Headers: {"server":"ZGS","date":"Thu, 04 Jul 2024 13:58:59 GMT","content-type":"application/vnd.catalyst.v2+json","transfer-encoding":"chunked","connection":"keep-alive","set-cookie":["zalb_46512fd555=bbdfb771565421abbe10f7a180903d28; Path=/","ZD_CSRF_TOKEN=1ad465de-99ae-46d4-a027-56b1141eeedf;path=/;SameSite=None;Secure;priority=high","_zcsr_tmp=1ad465de-99ae-46d4-a027-56b1141eeedf;path=/;SameSite=Strict;Secure;priority=high"],"x-content-type-options":"nosniff","x-xss-protection":"1","cache-control":"private,no-cache,no-store,max-age=0,must-revalidate","pragma":"no-cache","expires":"Thu, 01 Jan 1970 00:00:00 GMT","x-frame-options":"DENY","strict-transport-security":"max-age=63072000"}
+
+[debug] [2024-07-04T13:58:59.416Z] : >>>> HTTP REQUEST : GET https://api.catalyst.zoho.com/baas/v1/project/23165000000054103/environment 
+
+[debug] [2024-07-04T13:58:59.802Z] : <<<< HTTP RESPONSE : 200
+Response Headers: {"server":"ZGS","date":"Thu, 04 Jul 2024 13:58:59 GMT","content-type":"application/vnd.catalyst.v2+json","transfer-encoding":"chunked","connection":"keep-alive","set-cookie":["zalb_46512fd555=63dd9cf89a6678b816d9580ec827ee61; Path=/","ZD_CSRF_TOKEN=3e79ea44-f13d-42fb-b5e4-30f0a6e9f8fb;path=/;SameSite=None;Secure;priority=high","_zcsr_tmp=3e79ea44-f13d-42fb-b5e4-30f0a6e9f8fb;path=/;SameSite=Strict;Secure;priority=high"],"x-content-type-options":"nosniff","x-xss-protection":"1","cache-control":"private,no-cache,no-store,max-age=0,must-revalidate","pragma":"no-cache","expires":"Thu, 01 Jan 1970 00:00:00 GMT","x-frame-options":"DENY","strict-transport-security":"max-age=63072000"}
+
+[info] [2024-07-04T13:58:59.825Z] : 
+[info] [2024-07-04T13:58:59.826Z] : Executing predeploy script in C:\Users\ACVL-DIPIN KUMAR\Documents\acvluser\ACVL-CREW-BACKEND\appsail-nodejs
+[debug] [2024-07-04T13:58:59.827Z] : Executing command > npm install
+[info] [2024-07-04T13:58:59.827Z] : > npm install
+[debug] [2024-07-04T13:59:02.503Z] : >>>> HTTP REQUEST : PUT https://api.catalyst.zoho.com/baas/v1/project/23165000000054103/appsail/upsert 
+
+[debug] [2024-07-04T13:59:19.056Z] : <<<< HTTP RESPONSE : 200
+Response Headers: {"server":"ZGS","date":"Thu, 04 Jul 2024 13:59:19 GMT","content-type":"application/vnd.catalyst.v2+json","transfer-encoding":"chunked","connection":"keep-alive","set-cookie":["zalb_46512fd555=04d9a2d1e2e86744f9516a3e9f805f56; Path=/","ZD_CSRF_TOKEN=6c4e83bc-4da9-48d0-a30b-beb359d50fc5;path=/;SameSite=None;Secure;priority=high","_zcsr_tmp=6c4e83bc-4da9-48d0-a30b-beb359d50fc5;path=/;SameSite=Strict;Secure;priority=high"],"x-content-type-options":"nosniff","x-xss-protection":"1","cache-control":"private,no-cache,no-store,max-age=0,must-revalidate","pragma":"no-cache","expires":"Thu, 01 Jan 1970 00:00:00 GMT","x-frame-options":"DENY","strict-transport-security":"max-age=63072000"}
+
+[info] [2024-07-04T13:59:19.063Z] : 
+[info] [2024-07-04T13:59:19.065Z] : i AppSail(AppSail): URL => https://appsail-10083401023.development.catalystappsail.com
+[info] [2024-07-04T13:59:19.066Z] : √ AppSail(AppSail): deploy successful
+[info] [2024-07-04T13:59:19.067Z] : 
+[info] [2024-07-04T13:59:19.067Z] : √ Catalyst deploy complete!
+[debug] [2024-07-04T13:59:19.068Z] : NO ERRORS REGISTERED
+[debug] [2024-07-04T13:59:19.069Z] : EXEC ENDED with event: deploy, message: success
+[debug] [2024-07-04T13:59:19.069Z] : TOTAL DURATION OF COMMAND EXEC : 20705
+[debug] [2024-07-04T13:59:19.154Z] : >>>> HTTP REQUEST : POST https://api.catalyst.zoho.com/baas/v1/cli/logs 
+<request body omitted>
+
+[debug] [2024-07-04T13:59:19.773Z] : <<<< HTTP RESPONSE : 400
+Response Headers: {"server":"ZGS","date":"Thu, 04 Jul 2024 13:59:19 GMT","content-type":"application/json;charset=ISO-8859-1","content-length":"141","connection":"keep-alive","set-cookie":["zalb_46512fd555=04d9a2d1e2e86744f9516a3e9f805f56; Path=/","JSESSIONID=B89F440DA7337E262DE9D520AE8B92F0; Path=/; Secure; HttpOnly"],"x-content-type-options":"nosniff","x-xss-protection":"1","x-frame-options":"DENY","strict-transport-security":"max-age=63072000"}
+
+[debug] [2024-07-04T13:59:19.776Z] : Response Body : {"status":"failure","data":{"error_code":"MORE_THAN_MAX_LENGTH","message":"Please check if the length of the input is in the correct range"}}
+
+[debug] [2024-07-04T13:59:19.779Z] : Unable to send debug log to server: HTTP Error: 400, Please check if the length of the input is in the correct range
+[debug] [2024-07-04T14:01:24.554Z] : 
+[debug] [2024-07-04T14:01:24.555Z] : ----------------------------------------------------------------------
+[debug] [2024-07-04T14:01:24.556Z] : Command:      C:\Program Files\nodejs\node.exe C:\Users\ACVL-DIPIN KUMAR\AppData\Roaming\npm\node_modules\zcatalyst-cli\lib\bin\catalyst.js deploy
+[debug] [2024-07-04T14:01:24.556Z] : CLI Version:  1.17.5
+[debug] [2024-07-04T14:01:24.556Z] : Platform:     win32
+[debug] [2024-07-04T14:01:24.556Z] : Node Version: v20.13.1
+[debug] [2024-07-04T14:01:24.556Z] : Time:         Thu Jul 04 2024 19:31:24 GMT+0530 (India Standard Time)
+[debug] [2024-07-04T14:01:24.557Z] : ----------------------------------------------------------------------
+[debug] [2024-07-04T14:01:24.557Z] : 
+[debug] [2024-07-04T14:01:25.143Z] : > authorizing via signed-in user option
+[debug] [2024-07-04T14:01:25.143Z] : > command requires scopes: ["ZohoCatalyst.projects.ALL","ZohoCatalyst.functions.ALL","ZohoCatalyst.webapp.ALL","ZohoCatalyst.appsail.Update"]
+[debug] [2024-07-04T14:01:25.154Z] : >>>> HTTP REQUEST : GET https://api.catalyst.zoho.com/baas/v1/project/23165000000054103 
+
+[debug] [2024-07-04T14:01:26.343Z] : <<<< HTTP RESPONSE : 200
+Response Headers: {"server":"ZGS","date":"Thu, 04 Jul 2024 14:01:26 GMT","content-type":"application/vnd.catalyst.v2+json","transfer-encoding":"chunked","connection":"keep-alive","set-cookie":["zalb_46512fd555=00fd3a8cbff58bc9307e4ac5869875ce; Path=/","ZD_CSRF_TOKEN=f23079ac-a62d-4441-989c-022898b3a7a5;path=/;SameSite=None;Secure;priority=high","_zcsr_tmp=f23079ac-a62d-4441-989c-022898b3a7a5;path=/;SameSite=Strict;Secure;priority=high"],"x-content-type-options":"nosniff","x-xss-protection":"1","cache-control":"private,no-cache,no-store,max-age=0,must-revalidate","pragma":"no-cache","expires":"Thu, 01 Jan 1970 00:00:00 GMT","x-frame-options":"DENY","strict-transport-security":"max-age=63072000"}
+
+[debug] [2024-07-04T14:01:26.351Z] : >>>> HTTP REQUEST : GET https://api.catalyst.zoho.com/baas/v1/project/23165000000054103/environment 
+
+[debug] [2024-07-04T14:01:26.648Z] : <<<< HTTP RESPONSE : 200
+Response Headers: {"server":"ZGS","date":"Thu, 04 Jul 2024 14:01:26 GMT","content-type":"application/vnd.catalyst.v2+json","transfer-encoding":"chunked","connection":"keep-alive","set-cookie":["zalb_46512fd555=63dd9cf89a6678b816d9580ec827ee61; Path=/","ZD_CSRF_TOKEN=bef93bfe-282e-4ba5-8054-8d930697a374;path=/;SameSite=None;Secure;priority=high","_zcsr_tmp=bef93bfe-282e-4ba5-8054-8d930697a374;path=/;SameSite=Strict;Secure;priority=high"],"x-content-type-options":"nosniff","x-xss-protection":"1","cache-control":"private,no-cache,no-store,max-age=0,must-revalidate","pragma":"no-cache","expires":"Thu, 01 Jan 1970 00:00:00 GMT","x-frame-options":"DENY","strict-transport-security":"max-age=63072000"}
+
+[info] [2024-07-04T14:01:26.673Z] : 
+[info] [2024-07-04T14:01:26.674Z] : Executing predeploy script in C:\Users\ACVL-DIPIN KUMAR\Documents\acvluser\ACVL-CREW-BACKEND\appsail-nodejs
+[debug] [2024-07-04T14:01:26.674Z] : Executing command > npm install
+[info] [2024-07-04T14:01:26.674Z] : > npm install
+[debug] [2024-07-04T14:01:29.366Z] : >>>> HTTP REQUEST : PUT https://api.catalyst.zoho.com/baas/v1/project/23165000000054103/appsail/upsert 
+
+[debug] [2024-07-04T14:01:37.707Z] : <<<< HTTP RESPONSE : 200
+Response Headers: {"server":"ZGS","date":"Thu, 04 Jul 2024 14:01:37 GMT","content-type":"application/vnd.catalyst.v2+json","transfer-encoding":"chunked","connection":"keep-alive","set-cookie":["zalb_46512fd555=bbdfb771565421abbe10f7a180903d28; Path=/","ZD_CSRF_TOKEN=15ae2d96-0c49-4b6b-aa4c-5c2803cab182;path=/;SameSite=None;Secure;priority=high","_zcsr_tmp=15ae2d96-0c49-4b6b-aa4c-5c2803cab182;path=/;SameSite=Strict;Secure;priority=high"],"x-content-type-options":"nosniff","x-xss-protection":"1","cache-control":"private,no-cache,no-store,max-age=0,must-revalidate","pragma":"no-cache","expires":"Thu, 01 Jan 1970 00:00:00 GMT","x-frame-options":"DENY","strict-transport-security":"max-age=63072000"}
+
+[info] [2024-07-04T14:01:37.710Z] : 
+[info] [2024-07-04T14:01:37.711Z] : i AppSail(AppSail): URL => https://appsail-10083401023.development.catalystappsail.com
+[info] [2024-07-04T14:01:37.712Z] : √ AppSail(AppSail): deploy successful
+[info] [2024-07-04T14:01:37.712Z] : 
+[info] [2024-07-04T14:01:37.713Z] : √ Catalyst deploy complete!
+[debug] [2024-07-04T14:01:37.713Z] : NO ERRORS REGISTERED
+[debug] [2024-07-04T14:01:37.713Z] : EXEC ENDED with event: deploy, message: success
+[debug] [2024-07-04T14:01:37.713Z] : TOTAL DURATION OF COMMAND EXEC : 12578
+[debug] [2024-07-04T14:01:37.756Z] : >>>> HTTP REQUEST : POST https://api.catalyst.zoho.com/baas/v1/cli/logs 
+<request body omitted>
+
+[debug] [2024-07-04T14:01:38.423Z] : <<<< HTTP RESPONSE : 400
+Response Headers: {"server":"ZGS","date":"Thu, 04 Jul 2024 14:01:38 GMT","content-type":"application/json;charset=ISO-8859-1","content-length":"141","connection":"keep-alive","set-cookie":["zalb_46512fd555=63dd9cf89a6678b816d9580ec827ee61; Path=/","JSESSIONID=FEF729BCA664741579C17D59DB11BDDA; Path=/; Secure; HttpOnly"],"x-content-type-options":"nosniff","x-xss-protection":"1","x-frame-options":"DENY","strict-transport-security":"max-age=63072000"}
+
+[debug] [2024-07-04T14:01:38.423Z] : Response Body : {"status":"failure","data":{"error_code":"MORE_THAN_MAX_LENGTH","message":"Please check if the length of the input is in the correct range"}}
+
+[debug] [2024-07-04T14:01:38.426Z] : Unable to send debug log to server: HTTP Error: 400, Please check if the length of the input is in the correct range
+[debug] [2024-07-04T14:02:33.030Z] : 
+[debug] [2024-07-04T14:02:33.031Z] : ----------------------------------------------------------------------
+[debug] [2024-07-04T14:02:33.031Z] : Command:      C:\Program Files\nodejs\node.exe C:\Users\ACVL-DIPIN KUMAR\AppData\Roaming\npm\node_modules\zcatalyst-cli\lib\bin\catalyst.js deploy
+[debug] [2024-07-04T14:02:33.031Z] : CLI Version:  1.17.5
+[debug] [2024-07-04T14:02:33.031Z] : Platform:     win32
+[debug] [2024-07-04T14:02:33.032Z] : Node Version: v20.13.1
+[debug] [2024-07-04T14:02:33.032Z] : Time:         Thu Jul 04 2024 19:32:33 GMT+0530 (India Standard Time)
+[debug] [2024-07-04T14:02:33.032Z] : ----------------------------------------------------------------------
+[debug] [2024-07-04T14:02:33.032Z] : 
+[debug] [2024-07-04T14:02:33.596Z] : > authorizing via signed-in user option
+[debug] [2024-07-04T14:02:33.596Z] : > command requires scopes: ["ZohoCatalyst.projects.ALL","ZohoCatalyst.functions.ALL","ZohoCatalyst.webapp.ALL","ZohoCatalyst.appsail.Update"]
+[debug] [2024-07-04T14:02:33.606Z] : >>>> HTTP REQUEST : GET https://api.catalyst.zoho.com/baas/v1/project/23165000000054103 
+
+[debug] [2024-07-04T14:02:34.649Z] : <<<< HTTP RESPONSE : 200
+Response Headers: {"server":"ZGS","date":"Thu, 04 Jul 2024 14:02:34 GMT","content-type":"application/vnd.catalyst.v2+json","transfer-encoding":"chunked","connection":"keep-alive","set-cookie":["zalb_46512fd555=04d9a2d1e2e86744f9516a3e9f805f56; Path=/","ZD_CSRF_TOKEN=0ca77f47-02de-43e0-90c0-7bf5603c737e;path=/;SameSite=None;Secure;priority=high","_zcsr_tmp=0ca77f47-02de-43e0-90c0-7bf5603c737e;path=/;SameSite=Strict;Secure;priority=high"],"x-content-type-options":"nosniff","x-xss-protection":"1","cache-control":"private,no-cache,no-store,max-age=0,must-revalidate","pragma":"no-cache","expires":"Thu, 01 Jan 1970 00:00:00 GMT","x-frame-options":"DENY","strict-transport-security":"max-age=63072000"}
+
+[debug] [2024-07-04T14:02:34.657Z] : >>>> HTTP REQUEST : GET https://api.catalyst.zoho.com/baas/v1/project/23165000000054103/environment 
+
+[debug] [2024-07-04T14:02:35.054Z] : <<<< HTTP RESPONSE : 200
+Response Headers: {"server":"ZGS","date":"Thu, 04 Jul 2024 14:02:34 GMT","content-type":"application/vnd.catalyst.v2+json","transfer-encoding":"chunked","connection":"keep-alive","set-cookie":["zalb_46512fd555=00fd3a8cbff58bc9307e4ac5869875ce; Path=/","ZD_CSRF_TOKEN=d2ccfa6d-4ffa-4762-aa66-16baf7ac203c;path=/;SameSite=None;Secure;priority=high","_zcsr_tmp=d2ccfa6d-4ffa-4762-aa66-16baf7ac203c;path=/;SameSite=Strict;Secure;priority=high"],"x-content-type-options":"nosniff","x-xss-protection":"1","cache-control":"private,no-cache,no-store,max-age=0,must-revalidate","pragma":"no-cache","expires":"Thu, 01 Jan 1970 00:00:00 GMT","x-frame-options":"DENY","strict-transport-security":"max-age=63072000"}
+
+[info] [2024-07-04T14:02:35.069Z] : 
+[info] [2024-07-04T14:02:35.070Z] : Executing predeploy script in C:\Users\ACVL-DIPIN KUMAR\Documents\acvluser\ACVL-CREW-BACKEND\appsail-nodejs
+[debug] [2024-07-04T14:02:35.070Z] : Executing command > npm install
+[info] [2024-07-04T14:02:35.070Z] : > npm install
+[debug] [2024-07-04T14:02:38.038Z] : >>>> HTTP REQUEST : PUT https://api.catalyst.zoho.com/baas/v1/project/23165000000054103/appsail/upsert 
+
+[debug] [2024-07-04T14:02:43.789Z] : <<<< HTTP RESPONSE : 200
+Response Headers: {"server":"ZGS","date":"Thu, 04 Jul 2024 14:02:43 GMT","content-type":"application/vnd.catalyst.v2+json","transfer-encoding":"chunked","connection":"keep-alive","set-cookie":["zalb_46512fd555=00fd3a8cbff58bc9307e4ac5869875ce; Path=/","ZD_CSRF_TOKEN=e5815a03-9523-4c35-89a3-86fa5a4dd6a8;path=/;SameSite=None;Secure;priority=high","_zcsr_tmp=e5815a03-9523-4c35-89a3-86fa5a4dd6a8;path=/;SameSite=Strict;Secure;priority=high"],"x-content-type-options":"nosniff","x-xss-protection":"1","cache-control":"private,no-cache,no-store,max-age=0,must-revalidate","pragma":"no-cache","expires":"Thu, 01 Jan 1970 00:00:00 GMT","x-frame-options":"DENY","strict-transport-security":"max-age=63072000"}
+
+[info] [2024-07-04T14:02:43.791Z] : 
+[info] [2024-07-04T14:02:43.792Z] : i AppSail(AppSail): URL => https://appsail-10083401023.development.catalystappsail.com
+[info] [2024-07-04T14:02:43.793Z] : √ AppSail(AppSail): deploy successful
+[info] [2024-07-04T14:02:43.794Z] : 
+[info] [2024-07-04T14:02:43.795Z] : √ Catalyst deploy complete!
+[debug] [2024-07-04T14:02:43.796Z] : NO ERRORS REGISTERED
+[debug] [2024-07-04T14:02:43.796Z] : EXEC ENDED with event: deploy, message: success
+[debug] [2024-07-04T14:02:43.796Z] : TOTAL DURATION OF COMMAND EXEC : 10209
+[debug] [2024-07-04T14:02:43.847Z] : >>>> HTTP REQUEST : POST https://api.catalyst.zoho.com/baas/v1/cli/logs 
+<request body omitted>
+
+[debug] [2024-07-04T14:02:44.525Z] : <<<< HTTP RESPONSE : 400
+Response Headers: {"server":"ZGS","date":"Thu, 04 Jul 2024 14:02:44 GMT","content-type":"application/json;charset=ISO-8859-1","content-length":"141","connection":"keep-alive","set-cookie":["zalb_46512fd555=63dd9cf89a6678b816d9580ec827ee61; Path=/","JSESSIONID=F44214C9A01D9C8194094A8A9A6C8AF3; Path=/; Secure; HttpOnly"],"x-content-type-options":"nosniff","x-xss-protection":"1","x-frame-options":"DENY","strict-transport-security":"max-age=63072000"}
+
+[debug] [2024-07-04T14:02:44.526Z] : Response Body : {"status":"failure","data":{"error_code":"MORE_THAN_MAX_LENGTH","message":"Please check if the length of the input is in the correct range"}}
+
+[debug] [2024-07-04T14:02:44.529Z] : Unable to send debug log to server: HTTP Error: 400, Please check if the length of the input is in the correct range
+[debug] [2024-07-04T14:49:35.849Z] : 
+[debug] [2024-07-04T14:49:35.851Z] : ----------------------------------------------------------------------
+[debug] [2024-07-04T14:49:35.851Z] : Command:      C:\Program Files\nodejs\node.exe C:\Users\ACVL-DIPIN KUMAR\AppData\Roaming\npm\node_modules\zcatalyst-cli\lib\bin\catalyst.js serve
+[debug] [2024-07-04T14:49:35.851Z] : CLI Version:  1.17.5
+[debug] [2024-07-04T14:49:35.851Z] : Platform:     win32
+[debug] [2024-07-04T14:49:35.851Z] : Node Version: v20.13.1
+[debug] [2024-07-04T14:49:35.851Z] : Time:         Thu Jul 04 2024 20:19:35 GMT+0530 (India Standard Time)
+[debug] [2024-07-04T14:49:35.852Z] : ----------------------------------------------------------------------
+[debug] [2024-07-04T14:49:35.852Z] : 
+[debug] [2024-07-04T14:49:36.400Z] : > authorizing via signed-in user option
+[debug] [2024-07-04T14:49:36.401Z] : > command requires scopes: ["ZohoCatalyst.projects.ALL","ZohoCatalyst.functions.ALL","ZohoCatalyst.functions.EXECUTE","ZohoCatalyst.webapp.ALL","ZohoCatalyst.pdfshot.execute"]
+[debug] [2024-07-04T14:49:36.409Z] : >>>> HTTP REQUEST : GET https://api.catalyst.zoho.com/baas/v1/project/23165000000054103 
+
+[debug] [2024-07-04T14:49:37.340Z] : <<<< HTTP RESPONSE : 200
+Response Headers: {"server":"ZGS","date":"Thu, 04 Jul 2024 14:49:36 GMT","content-type":"application/vnd.catalyst.v2+json","transfer-encoding":"chunked","connection":"keep-alive","set-cookie":["zalb_46512fd555=bbdfb771565421abbe10f7a180903d28; Path=/","ZD_CSRF_TOKEN=08f6c489-14a6-4ba9-90dc-96b08de902d5;path=/;SameSite=None;Secure;priority=high","_zcsr_tmp=08f6c489-14a6-4ba9-90dc-96b08de902d5;path=/;SameSite=Strict;Secure;priority=high"],"x-content-type-options":"nosniff","x-xss-protection":"1","cache-control":"private,no-cache,no-store,max-age=0,must-revalidate","pragma":"no-cache","expires":"Thu, 01 Jan 1970 00:00:00 GMT","x-frame-options":"DENY","strict-transport-security":"max-age=63072000"}
+
+[debug] [2024-07-04T14:49:37.345Z] : >>>> HTTP REQUEST : GET https://api.catalyst.zoho.com/baas/v1/project/23165000000054103/environment 
+
+[debug] [2024-07-04T14:49:37.663Z] : <<<< HTTP RESPONSE : 200
+Response Headers: {"server":"ZGS","date":"Thu, 04 Jul 2024 14:49:37 GMT","content-type":"application/vnd.catalyst.v2+json","transfer-encoding":"chunked","connection":"keep-alive","set-cookie":["zalb_46512fd555=63dd9cf89a6678b816d9580ec827ee61; Path=/","ZD_CSRF_TOKEN=b0514729-2631-4daa-bd85-bdeac20d829a;path=/;SameSite=None;Secure;priority=high","_zcsr_tmp=b0514729-2631-4daa-bd85-bdeac20d829a;path=/;SameSite=Strict;Secure;priority=high"],"x-content-type-options":"nosniff","x-xss-protection":"1","cache-control":"private,no-cache,no-store,max-age=0,must-revalidate","pragma":"no-cache","expires":"Thu, 01 Jan 1970 00:00:00 GMT","x-frame-options":"DENY","strict-transport-security":"max-age=63072000"}
+
+[debug] [2024-07-04T14:49:37.846Z] : http port : '3000' is not available. Hence port '3001' will be used instead.
+[debug] [2024-07-04T14:49:37.862Z] : http port : '3000' is not available. Hence port '3002' will be used instead.
+[debug] [2024-07-04T14:49:37.866Z] : No basic functions to add
+[info] [2024-07-04T14:49:37.868Z] : 
+[info] [2024-07-04T14:49:37.868Z] : Executing AppSail [PRESERVE] [AppSail] script in C:\Users\ACVL-DIPIN KUMAR\Documents\acvluser\ACVL-CREW-BACKEND\appsail-nodejs
+[debug] [2024-07-04T14:49:37.868Z] : Executing command > npm install
+[info] [2024-07-04T14:49:37.869Z] : > npm install
+[info] [2024-07-04T14:49:39.360Z] : 
+[info] [2024-07-04T14:49:39.361Z] :  >>>>>>>>>>>>>> AppSail <<<<<<<<<<<<<< 
+[info] [2024-07-04T14:49:39.362Z] : i AppSail: http://localhost:3002
+[info] [2024-07-04T14:49:39.363Z] : 
+[info] [2024-07-04T14:59:37.831Z] : Shutting down server
+[info] [2024-07-04T14:59:37.835Z] : 
+[info] [2024-07-04T14:59:37.837Z] : √ Shutdown complete
+[debug] [2024-07-04T14:59:37.837Z] : NO ERRORS REGISTERED
+[debug] [2024-07-04T14:59:37.837Z] : EXEC ENDED with event: serve, message: success
+[debug] [2024-07-04T14:59:37.837Z] : TOTAL DURATION OF COMMAND EXEC : 601446
+[debug] [2024-07-04T14:59:37.876Z] : > refreshing access token <
+[debug] [2024-07-04T14:59:37.877Z] : >>>> HTTP REQUEST : POST https://accounts.zoho.com/oauth/v2/token 
+<request body omitted>
+
+[debug] [2024-07-04T14:59:38.699Z] : <<<< HTTP RESPONSE : 200
+Response Headers: {"server":"ZGS","date":"Thu, 04 Jul 2024 14:59:38 GMT","content-type":"application/json;charset=UTF-8","content-length":"1914","connection":"keep-alive","set-cookie":["zalb_b266a5bf57=9f371135a524e2d1f51eb9f41fa26c60; Path=/","iamcsr=d48c65f3-db3a-48aa-b211-60328c5d714e;path=/;SameSite=None;Secure;priority=high","_zcsr_tmp=d48c65f3-db3a-48aa-b211-60328c5d714e;path=/;SameSite=Strict;Secure;priority=high"],"cache-control":"no-store","x-content-type-options":"nosniff","pragma":"no-cache","x-frame-options":"SAMEORIGIN","vary":"accept-encoding","content-language":"en-US","strict-transport-security":"max-age=63072000"}
+
+[debug] [2024-07-04T14:59:38.737Z] : >>>> HTTP REQUEST : POST https://api.catalyst.zoho.com/baas/v1/cli/logs 
+<request body omitted>
+
+[debug] [2024-07-04T14:59:41.860Z] : <<<< HTTP RESPONSE : 400
+Response Headers: {"server":"ZGS","date":"Thu, 04 Jul 2024 14:59:41 GMT","content-type":"application/json;charset=ISO-8859-1","content-length":"141","connection":"keep-alive","set-cookie":["zalb_46512fd555=bbdfb771565421abbe10f7a180903d28; Path=/","JSESSIONID=FA14ECD1BEEFD8919F958CA27DE9210C; Path=/; Secure; HttpOnly"],"x-content-type-options":"nosniff","x-xss-protection":"1","x-frame-options":"DENY","strict-transport-security":"max-age=63072000"}
+
+[debug] [2024-07-04T14:59:41.862Z] : Response Body : {"status":"failure","data":{"error_code":"MORE_THAN_MAX_LENGTH","message":"Please check if the length of the input is in the correct range"}}
+
+[debug] [2024-07-04T14:59:41.865Z] : Unable to send debug log to server: HTTP Error: 400, Please check if the length of the input is in the correct range
+[debug] [2024-07-04T14:59:43.926Z] : 
+[debug] [2024-07-04T14:59:43.928Z] : ----------------------------------------------------------------------
+[debug] [2024-07-04T14:59:43.928Z] : Command:      C:\Program Files\nodejs\node.exe C:\Users\ACVL-DIPIN KUMAR\AppData\Roaming\npm\node_modules\zcatalyst-cli\lib\bin\catalyst.js deploy
+[debug] [2024-07-04T14:59:43.928Z] : CLI Version:  1.17.5
+[debug] [2024-07-04T14:59:43.928Z] : Platform:     win32
+[debug] [2024-07-04T14:59:43.928Z] : Node Version: v20.13.1
+[debug] [2024-07-04T14:59:43.928Z] : Time:         Thu Jul 04 2024 20:29:43 GMT+0530 (India Standard Time)
+[debug] [2024-07-04T14:59:43.929Z] : ----------------------------------------------------------------------
+[debug] [2024-07-04T14:59:43.929Z] : 
+[debug] [2024-07-04T14:59:44.446Z] : > authorizing via signed-in user option
+[debug] [2024-07-04T14:59:44.447Z] : > command requires scopes: ["ZohoCatalyst.projects.ALL","ZohoCatalyst.functions.ALL","ZohoCatalyst.webapp.ALL","ZohoCatalyst.appsail.Update"]
+[debug] [2024-07-04T14:59:44.456Z] : >>>> HTTP REQUEST : GET https://api.catalyst.zoho.com/baas/v1/project/23165000000054103 
+
+[debug] [2024-07-04T14:59:45.307Z] : <<<< HTTP RESPONSE : 200
+Response Headers: {"server":"ZGS","date":"Thu, 04 Jul 2024 14:59:44 GMT","content-type":"application/vnd.catalyst.v2+json","transfer-encoding":"chunked","connection":"keep-alive","set-cookie":["zalb_46512fd555=bbdfb771565421abbe10f7a180903d28; Path=/","ZD_CSRF_TOKEN=01fc2c5c-fd60-418a-9b94-0c861043e094;path=/;SameSite=None;Secure;priority=high","_zcsr_tmp=01fc2c5c-fd60-418a-9b94-0c861043e094;path=/;SameSite=Strict;Secure;priority=high"],"x-content-type-options":"nosniff","x-xss-protection":"1","cache-control":"private,no-cache,no-store,max-age=0,must-revalidate","pragma":"no-cache","expires":"Thu, 01 Jan 1970 00:00:00 GMT","x-frame-options":"DENY","strict-transport-security":"max-age=63072000"}
+
+[debug] [2024-07-04T14:59:45.314Z] : >>>> HTTP REQUEST : GET https://api.catalyst.zoho.com/baas/v1/project/23165000000054103/environment 
+
+[debug] [2024-07-04T14:59:45.609Z] : <<<< HTTP RESPONSE : 200
+Response Headers: {"server":"ZGS","date":"Thu, 04 Jul 2024 14:59:45 GMT","content-type":"application/vnd.catalyst.v2+json","transfer-encoding":"chunked","connection":"keep-alive","set-cookie":["zalb_46512fd555=63dd9cf89a6678b816d9580ec827ee61; Path=/","ZD_CSRF_TOKEN=543e47b5-5304-4cce-bbc6-42523c60630a;path=/;SameSite=None;Secure;priority=high","_zcsr_tmp=543e47b5-5304-4cce-bbc6-42523c60630a;path=/;SameSite=Strict;Secure;priority=high"],"x-content-type-options":"nosniff","x-xss-protection":"1","cache-control":"private,no-cache,no-store,max-age=0,must-revalidate","pragma":"no-cache","expires":"Thu, 01 Jan 1970 00:00:00 GMT","x-frame-options":"DENY","strict-transport-security":"max-age=63072000"}
+
+[info] [2024-07-04T14:59:45.619Z] : 
+[info] [2024-07-04T14:59:45.619Z] : Executing predeploy script in C:\Users\ACVL-DIPIN KUMAR\Documents\acvluser\ACVL-CREW-BACKEND\appsail-nodejs
+[debug] [2024-07-04T14:59:45.619Z] : Executing command > npm install
+[info] [2024-07-04T14:59:45.620Z] : > npm install
+[debug] [2024-07-04T14:59:47.852Z] : >>>> HTTP REQUEST : PUT https://api.catalyst.zoho.com/baas/v1/project/23165000000054103/appsail/upsert 
+
+[debug] [2024-07-04T15:00:03.877Z] : <<<< HTTP RESPONSE : 200
+Response Headers: {"server":"ZGS","date":"Thu, 04 Jul 2024 15:00:03 GMT","content-type":"application/vnd.catalyst.v2+json","transfer-encoding":"chunked","connection":"keep-alive","set-cookie":["zalb_46512fd555=00fd3a8cbff58bc9307e4ac5869875ce; Path=/","ZD_CSRF_TOKEN=d550a866-3753-437c-99a6-b2ed263dadf5;path=/;SameSite=None;Secure;priority=high","_zcsr_tmp=d550a866-3753-437c-99a6-b2ed263dadf5;path=/;SameSite=Strict;Secure;priority=high"],"x-content-type-options":"nosniff","x-xss-protection":"1","cache-control":"private,no-cache,no-store,max-age=0,must-revalidate","pragma":"no-cache","expires":"Thu, 01 Jan 1970 00:00:00 GMT","x-frame-options":"DENY","strict-transport-security":"max-age=63072000"}
+
+[info] [2024-07-04T15:00:03.879Z] : 
+[info] [2024-07-04T15:00:03.879Z] : i AppSail(AppSail): URL => https://appsail-10083401023.development.catalystappsail.com
+[info] [2024-07-04T15:00:03.880Z] : √ AppSail(AppSail): deploy successful
+[info] [2024-07-04T15:00:03.880Z] : 
+[info] [2024-07-04T15:00:03.880Z] : √ Catalyst deploy complete!
+[debug] [2024-07-04T15:00:03.880Z] : NO ERRORS REGISTERED
+[debug] [2024-07-04T15:00:03.881Z] : EXEC ENDED with event: deploy, message: success
+[debug] [2024-07-04T15:00:03.881Z] : TOTAL DURATION OF COMMAND EXEC : 19443
+[debug] [2024-07-04T15:00:03.917Z] : >>>> HTTP REQUEST : POST https://api.catalyst.zoho.com/baas/v1/cli/logs 
+<request body omitted>
+
+[debug] [2024-07-04T15:00:04.471Z] : <<<< HTTP RESPONSE : 400
+Response Headers: {"server":"ZGS","date":"Thu, 04 Jul 2024 15:00:04 GMT","content-type":"application/json;charset=ISO-8859-1","content-length":"141","connection":"keep-alive","set-cookie":["zalb_46512fd555=63dd9cf89a6678b816d9580ec827ee61; Path=/","JSESSIONID=91B4C30AB07D65E8485D42B7681AC9CA; Path=/; Secure; HttpOnly"],"x-content-type-options":"nosniff","x-xss-protection":"1","x-frame-options":"DENY","strict-transport-security":"max-age=63072000"}
+
+[debug] [2024-07-04T15:00:04.472Z] : Response Body : {"status":"failure","data":{"error_code":"MORE_THAN_MAX_LENGTH","message":"Please check if the length of the input is in the correct range"}}
+
+[debug] [2024-07-04T15:00:04.474Z] : Unable to send debug log to server: HTTP Error: 400, Please check if the length of the input is in the correct range
+[debug] [2024-07-05T09:32:14.955Z] : 
+[debug] [2024-07-05T09:32:14.957Z] : ----------------------------------------------------------------------
+[debug] [2024-07-05T09:32:14.957Z] : Command:      C:\Program Files\nodejs\node.exe C:\Users\ACVL-DIPIN KUMAR\AppData\Roaming\npm\node_modules\zcatalyst-cli\lib\bin\catalyst.js deploy
+[debug] [2024-07-05T09:32:14.957Z] : CLI Version:  1.17.5
+[debug] [2024-07-05T09:32:14.957Z] : Platform:     win32
+[debug] [2024-07-05T09:32:14.958Z] : Node Version: v20.13.1
+[debug] [2024-07-05T09:32:14.958Z] : Time:         Fri Jul 05 2024 15:02:14 GMT+0530 (India Standard Time)
+[debug] [2024-07-05T09:32:14.958Z] : ----------------------------------------------------------------------
+[debug] [2024-07-05T09:32:14.958Z] : 
+[debug] [2024-07-05T09:32:15.581Z] : > authorizing via signed-in user option
+[debug] [2024-07-05T09:32:15.582Z] : > command requires scopes: ["ZohoCatalyst.projects.ALL","ZohoCatalyst.functions.ALL","ZohoCatalyst.webapp.ALL","ZohoCatalyst.appsail.Update"]
+[debug] [2024-07-05T09:32:15.593Z] : > refreshing access token <
+[debug] [2024-07-05T09:32:15.595Z] : >>>> HTTP REQUEST : POST https://accounts.zoho.com/oauth/v2/token 
+<request body omitted>
+
+[debug] [2024-07-05T09:32:16.668Z] : <<<< HTTP RESPONSE : 200
+Response Headers: {"server":"ZGS","date":"Fri, 05 Jul 2024 09:32:16 GMT","content-type":"application/json;charset=UTF-8","content-length":"1914","connection":"keep-alive","set-cookie":["zalb_b266a5bf57=9f371135a524e2d1f51eb9f41fa26c60; Path=/","iamcsr=2de2ee95-6d0e-4416-a9d6-f2397a1b2e9c;path=/;SameSite=None;Secure;priority=high","_zcsr_tmp=2de2ee95-6d0e-4416-a9d6-f2397a1b2e9c;path=/;SameSite=Strict;Secure;priority=high"],"cache-control":"no-store","x-content-type-options":"nosniff","pragma":"no-cache","x-frame-options":"SAMEORIGIN","vary":"accept-encoding","content-language":"en-US","strict-transport-security":"max-age=63072000"}
+
+[debug] [2024-07-05T09:32:16.687Z] : >>>> HTTP REQUEST : GET https://api.catalyst.zoho.com/baas/v1/project/23165000000054103 
+
+[debug] [2024-07-05T09:32:17.644Z] : <<<< HTTP RESPONSE : 200
+Response Headers: {"server":"ZGS","date":"Fri, 05 Jul 2024 09:32:17 GMT","content-type":"application/vnd.catalyst.v2+json","transfer-encoding":"chunked","connection":"keep-alive","set-cookie":["zalb_46512fd555=63dd9cf89a6678b816d9580ec827ee61; Path=/","ZD_CSRF_TOKEN=ba860ae4-a03f-4864-8674-b22d6f982348;path=/;SameSite=None;Secure;priority=high","_zcsr_tmp=ba860ae4-a03f-4864-8674-b22d6f982348;path=/;SameSite=Strict;Secure;priority=high"],"x-content-type-options":"nosniff","x-xss-protection":"1","cache-control":"private,no-cache,no-store,max-age=0,must-revalidate","pragma":"no-cache","expires":"Thu, 01 Jan 1970 00:00:00 GMT","x-frame-options":"DENY","strict-transport-security":"max-age=63072000"}
+
+[debug] [2024-07-05T09:32:17.648Z] : >>>> HTTP REQUEST : GET https://api.catalyst.zoho.com/baas/v1/project/23165000000054103/environment 
+
+[debug] [2024-07-05T09:32:18.016Z] : <<<< HTTP RESPONSE : 200
+Response Headers: {"server":"ZGS","date":"Fri, 05 Jul 2024 09:32:18 GMT","content-type":"application/vnd.catalyst.v2+json","transfer-encoding":"chunked","connection":"keep-alive","set-cookie":["zalb_46512fd555=04d9a2d1e2e86744f9516a3e9f805f56; Path=/","ZD_CSRF_TOKEN=94046bf7-1000-4f8b-9534-b2fb441be310;path=/;SameSite=None;Secure;priority=high","_zcsr_tmp=94046bf7-1000-4f8b-9534-b2fb441be310;path=/;SameSite=Strict;Secure;priority=high"],"x-content-type-options":"nosniff","x-xss-protection":"1","cache-control":"private,no-cache,no-store,max-age=0,must-revalidate","pragma":"no-cache","expires":"Thu, 01 Jan 1970 00:00:00 GMT","x-frame-options":"DENY","strict-transport-security":"max-age=63072000"}
+
+[info] [2024-07-05T09:32:18.052Z] : 
+[info] [2024-07-05T09:32:18.052Z] : Executing predeploy script in C:\Users\ACVL-DIPIN KUMAR\Documents\acvluser\ACVL-CREW-BACKEND\appsail-nodejs
+[debug] [2024-07-05T09:32:18.053Z] : Executing command > npm install
+[info] [2024-07-05T09:32:18.053Z] : > npm install
+[debug] [2024-07-05T09:32:20.786Z] : >>>> HTTP REQUEST : PUT https://api.catalyst.zoho.com/baas/v1/project/23165000000054103/appsail/upsert 
+
+[debug] [2024-07-05T09:32:33.257Z] : <<<< HTTP RESPONSE : 200
+Response Headers: {"server":"ZGS","date":"Fri, 05 Jul 2024 09:32:33 GMT","content-type":"application/vnd.catalyst.v2+json","transfer-encoding":"chunked","connection":"keep-alive","set-cookie":["zalb_46512fd555=00fd3a8cbff58bc9307e4ac5869875ce; Path=/","ZD_CSRF_TOKEN=a042af8f-1f74-4ee1-845e-ae86735c2f6b;path=/;SameSite=None;Secure;priority=high","_zcsr_tmp=a042af8f-1f74-4ee1-845e-ae86735c2f6b;path=/;SameSite=Strict;Secure;priority=high"],"x-content-type-options":"nosniff","x-xss-protection":"1","cache-control":"private,no-cache,no-store,max-age=0,must-revalidate","pragma":"no-cache","expires":"Thu, 01 Jan 1970 00:00:00 GMT","x-frame-options":"DENY","strict-transport-security":"max-age=63072000"}
+
+[info] [2024-07-05T09:32:33.264Z] : 
+[info] [2024-07-05T09:32:33.266Z] : i AppSail(AppSail): URL => https://appsail-10083401023.development.catalystappsail.com
+[info] [2024-07-05T09:32:33.266Z] : √ AppSail(AppSail): deploy successful
+[info] [2024-07-05T09:32:33.266Z] : 
+[info] [2024-07-05T09:32:33.267Z] : √ Catalyst deploy complete!
+[debug] [2024-07-05T09:32:33.267Z] : NO ERRORS REGISTERED
+[debug] [2024-07-05T09:32:33.268Z] : EXEC ENDED with event: deploy, message: success
+[debug] [2024-07-05T09:32:33.268Z] : TOTAL DURATION OF COMMAND EXEC : 17695
+[debug] [2024-07-05T09:32:33.306Z] : >>>> HTTP REQUEST : POST https://api.catalyst.zoho.com/baas/v1/cli/logs 
+<request body omitted>
+
+[debug] [2024-07-05T09:32:34.821Z] : <<<< HTTP RESPONSE : 400
+Response Headers: {"server":"ZGS","date":"Fri, 05 Jul 2024 09:32:34 GMT","content-type":"application/json;charset=ISO-8859-1","content-length":"141","connection":"keep-alive","set-cookie":["zalb_46512fd555=bbdfb771565421abbe10f7a180903d28; Path=/","JSESSIONID=96FA962FA7EA7D16AE605D5E0D6C6B11; Path=/; Secure; HttpOnly"],"x-content-type-options":"nosniff","x-xss-protection":"1","x-frame-options":"DENY","strict-transport-security":"max-age=63072000"}
+
+[debug] [2024-07-05T09:32:34.822Z] : Response Body : {"status":"failure","data":{"error_code":"MORE_THAN_MAX_LENGTH","message":"Please check if the length of the input is in the correct range"}}
+
+[debug] [2024-07-05T09:32:34.825Z] : Unable to send debug log to server: HTTP Error: 400, Please check if the length of the input is in the correct range
+[debug] [2024-07-05T09:40:00.566Z] : 
+[debug] [2024-07-05T09:40:00.569Z] : ----------------------------------------------------------------------
+[debug] [2024-07-05T09:40:00.569Z] : Command:      C:\Program Files\nodejs\node.exe C:\Users\ACVL-DIPIN KUMAR\AppData\Roaming\npm\node_modules\zcatalyst-cli\lib\bin\catalyst.js deploy
+[debug] [2024-07-05T09:40:00.569Z] : CLI Version:  1.17.5
+[debug] [2024-07-05T09:40:00.569Z] : Platform:     win32
+[debug] [2024-07-05T09:40:00.570Z] : Node Version: v20.13.1
+[debug] [2024-07-05T09:40:00.570Z] : Time:         Fri Jul 05 2024 15:10:00 GMT+0530 (India Standard Time)
+[debug] [2024-07-05T09:40:00.570Z] : ----------------------------------------------------------------------
+[debug] [2024-07-05T09:40:00.570Z] : 
+[debug] [2024-07-05T09:40:01.183Z] : > authorizing via signed-in user option
+[debug] [2024-07-05T09:40:01.183Z] : > command requires scopes: ["ZohoCatalyst.projects.ALL","ZohoCatalyst.functions.ALL","ZohoCatalyst.webapp.ALL","ZohoCatalyst.appsail.Update"]
+[debug] [2024-07-05T09:40:01.198Z] : >>>> HTTP REQUEST : GET https://api.catalyst.zoho.com/baas/v1/project/23165000000054103 
+
+[debug] [2024-07-05T09:40:02.195Z] : <<<< HTTP RESPONSE : 200
+Response Headers: {"server":"ZGS","date":"Fri, 05 Jul 2024 09:40:02 GMT","content-type":"application/vnd.catalyst.v2+json","transfer-encoding":"chunked","connection":"keep-alive","set-cookie":["zalb_46512fd555=00fd3a8cbff58bc9307e4ac5869875ce; Path=/","ZD_CSRF_TOKEN=c9536d5f-5fe9-40a0-9149-1918b188b789;path=/;SameSite=None;Secure;priority=high","_zcsr_tmp=c9536d5f-5fe9-40a0-9149-1918b188b789;path=/;SameSite=Strict;Secure;priority=high"],"x-content-type-options":"nosniff","x-xss-protection":"1","cache-control":"private,no-cache,no-store,max-age=0,must-revalidate","pragma":"no-cache","expires":"Thu, 01 Jan 1970 00:00:00 GMT","x-frame-options":"DENY","strict-transport-security":"max-age=63072000"}
+
+[debug] [2024-07-05T09:40:02.199Z] : >>>> HTTP REQUEST : GET https://api.catalyst.zoho.com/baas/v1/project/23165000000054103/environment 
+
+[debug] [2024-07-05T09:40:02.497Z] : <<<< HTTP RESPONSE : 200
+Response Headers: {"server":"ZGS","date":"Fri, 05 Jul 2024 09:40:02 GMT","content-type":"application/vnd.catalyst.v2+json","transfer-encoding":"chunked","connection":"keep-alive","set-cookie":["zalb_46512fd555=bbdfb771565421abbe10f7a180903d28; Path=/","ZD_CSRF_TOKEN=d710fb47-ea37-42cf-96ee-c3df060ee1f4;path=/;SameSite=None;Secure;priority=high","_zcsr_tmp=d710fb47-ea37-42cf-96ee-c3df060ee1f4;path=/;SameSite=Strict;Secure;priority=high"],"x-content-type-options":"nosniff","x-xss-protection":"1","cache-control":"private,no-cache,no-store,max-age=0,must-revalidate","pragma":"no-cache","expires":"Thu, 01 Jan 1970 00:00:00 GMT","x-frame-options":"DENY","strict-transport-security":"max-age=63072000"}
+
+[info] [2024-07-05T09:40:02.517Z] : 
+[info] [2024-07-05T09:40:02.518Z] : Executing predeploy script in C:\Users\ACVL-DIPIN KUMAR\Documents\acvluser\ACVL-CREW-BACKEND\appsail-nodejs
+[debug] [2024-07-05T09:40:02.518Z] : Executing command > npm install
+[info] [2024-07-05T09:40:02.518Z] : > npm install
+[debug] [2024-07-05T09:40:05.323Z] : >>>> HTTP REQUEST : PUT https://api.catalyst.zoho.com/baas/v1/project/23165000000054103/appsail/upsert 
+
+[debug] [2024-07-05T09:40:13.326Z] : <<<< HTTP RESPONSE : 200
+Response Headers: {"server":"ZGS","date":"Fri, 05 Jul 2024 09:40:13 GMT","content-type":"application/vnd.catalyst.v2+json","transfer-encoding":"chunked","connection":"keep-alive","set-cookie":["zalb_46512fd555=bbdfb771565421abbe10f7a180903d28; Path=/","ZD_CSRF_TOKEN=f70a94fa-9049-4f4d-b949-fa5d8ca738ce;path=/;SameSite=None;Secure;priority=high","_zcsr_tmp=f70a94fa-9049-4f4d-b949-fa5d8ca738ce;path=/;SameSite=Strict;Secure;priority=high"],"x-content-type-options":"nosniff","x-xss-protection":"1","cache-control":"private,no-cache,no-store,max-age=0,must-revalidate","pragma":"no-cache","expires":"Thu, 01 Jan 1970 00:00:00 GMT","x-frame-options":"DENY","strict-transport-security":"max-age=63072000"}
+
+[info] [2024-07-05T09:40:13.328Z] : 
+[info] [2024-07-05T09:40:13.329Z] : i AppSail(AppSail): URL => https://appsail-10083401023.development.catalystappsail.com
+[info] [2024-07-05T09:40:13.330Z] : √ AppSail(AppSail): deploy successful
+[info] [2024-07-05T09:40:13.330Z] : 
+[info] [2024-07-05T09:40:13.330Z] : √ Catalyst deploy complete!
+[debug] [2024-07-05T09:40:13.331Z] : NO ERRORS REGISTERED
+[debug] [2024-07-05T09:40:13.331Z] : EXEC ENDED with event: deploy, message: success
+[debug] [2024-07-05T09:40:13.331Z] : TOTAL DURATION OF COMMAND EXEC : 12159
+[debug] [2024-07-05T09:40:13.373Z] : >>>> HTTP REQUEST : POST https://api.catalyst.zoho.com/baas/v1/cli/logs 
+<request body omitted>
+
+[debug] [2024-07-05T09:40:14.084Z] : <<<< HTTP RESPONSE : 400
+Response Headers: {"server":"ZGS","date":"Fri, 05 Jul 2024 09:40:14 GMT","content-type":"application/json;charset=ISO-8859-1","content-length":"141","connection":"keep-alive","set-cookie":["zalb_46512fd555=bbdfb771565421abbe10f7a180903d28; Path=/","JSESSIONID=E1C37E3BEF83C1124A2121297ABEE435; Path=/; Secure; HttpOnly"],"x-content-type-options":"nosniff","x-xss-protection":"1","x-frame-options":"DENY","strict-transport-security":"max-age=63072000"}
+
+[debug] [2024-07-05T09:40:14.085Z] : Response Body : {"status":"failure","data":{"error_code":"MORE_THAN_MAX_LENGTH","message":"Please check if the length of the input is in the correct range"}}
+
+[debug] [2024-07-05T09:40:14.086Z] : Unable to send debug log to server: HTTP Error: 400, Please check if the length of the input is in the correct range
+[debug] [2024-07-05T09:46:23.638Z] : 
+[debug] [2024-07-05T09:46:23.640Z] : ----------------------------------------------------------------------
+[debug] [2024-07-05T09:46:23.640Z] : Command:      C:\Program Files\nodejs\node.exe C:\Users\ACVL-DIPIN KUMAR\AppData\Roaming\npm\node_modules\zcatalyst-cli\lib\bin\catalyst.js deploy
+[debug] [2024-07-05T09:46:23.640Z] : CLI Version:  1.17.5
+[debug] [2024-07-05T09:46:23.641Z] : Platform:     win32
+[debug] [2024-07-05T09:46:23.641Z] : Node Version: v20.13.1
+[debug] [2024-07-05T09:46:23.641Z] : Time:         Fri Jul 05 2024 15:16:23 GMT+0530 (India Standard Time)
+[debug] [2024-07-05T09:46:23.641Z] : ----------------------------------------------------------------------
+[debug] [2024-07-05T09:46:23.641Z] : 
+[debug] [2024-07-05T09:46:24.226Z] : > authorizing via signed-in user option
+[debug] [2024-07-05T09:46:24.227Z] : > command requires scopes: ["ZohoCatalyst.projects.ALL","ZohoCatalyst.functions.ALL","ZohoCatalyst.webapp.ALL","ZohoCatalyst.appsail.Update"]
+[debug] [2024-07-05T09:46:24.238Z] : >>>> HTTP REQUEST : GET https://api.catalyst.zoho.com/baas/v1/project/23165000000054103 
+
+[debug] [2024-07-05T09:46:25.251Z] : <<<< HTTP RESPONSE : 200
+Response Headers: {"server":"ZGS","date":"Fri, 05 Jul 2024 09:46:25 GMT","content-type":"application/vnd.catalyst.v2+json","transfer-encoding":"chunked","connection":"keep-alive","set-cookie":["zalb_46512fd555=00fd3a8cbff58bc9307e4ac5869875ce; Path=/","ZD_CSRF_TOKEN=aed55caa-279c-4de9-aad0-a070a2343b59;path=/;SameSite=None;Secure;priority=high","_zcsr_tmp=aed55caa-279c-4de9-aad0-a070a2343b59;path=/;SameSite=Strict;Secure;priority=high"],"x-content-type-options":"nosniff","x-xss-protection":"1","cache-control":"private,no-cache,no-store,max-age=0,must-revalidate","pragma":"no-cache","expires":"Thu, 01 Jan 1970 00:00:00 GMT","x-frame-options":"DENY","strict-transport-security":"max-age=63072000"}
+
+[debug] [2024-07-05T09:46:25.258Z] : >>>> HTTP REQUEST : GET https://api.catalyst.zoho.com/baas/v1/project/23165000000054103/environment 
+
+[debug] [2024-07-05T09:46:25.667Z] : <<<< HTTP RESPONSE : 200
+Response Headers: {"server":"ZGS","date":"Fri, 05 Jul 2024 09:46:25 GMT","content-type":"application/vnd.catalyst.v2+json","transfer-encoding":"chunked","connection":"keep-alive","set-cookie":["zalb_46512fd555=bbdfb771565421abbe10f7a180903d28; Path=/","ZD_CSRF_TOKEN=b80e2cba-5404-4cb6-bb76-fb8b8079dfc3;path=/;SameSite=None;Secure;priority=high","_zcsr_tmp=b80e2cba-5404-4cb6-bb76-fb8b8079dfc3;path=/;SameSite=Strict;Secure;priority=high"],"x-content-type-options":"nosniff","x-xss-protection":"1","cache-control":"private,no-cache,no-store,max-age=0,must-revalidate","pragma":"no-cache","expires":"Thu, 01 Jan 1970 00:00:00 GMT","x-frame-options":"DENY","strict-transport-security":"max-age=63072000"}
+
+[info] [2024-07-05T09:46:25.684Z] : 
+[info] [2024-07-05T09:46:25.685Z] : Executing predeploy script in C:\Users\ACVL-DIPIN KUMAR\Documents\acvluser\ACVL-CREW-BACKEND\appsail-nodejs
+[debug] [2024-07-05T09:46:25.685Z] : Executing command > npm install
+[info] [2024-07-05T09:46:25.687Z] : > npm install
+[debug] [2024-07-05T09:46:28.555Z] : >>>> HTTP REQUEST : PUT https://api.catalyst.zoho.com/baas/v1/project/23165000000054103/appsail/upsert 
+
+[debug] [2024-07-05T09:46:35.099Z] : <<<< HTTP RESPONSE : 200
+Response Headers: {"server":"ZGS","date":"Fri, 05 Jul 2024 09:46:35 GMT","content-type":"application/vnd.catalyst.v2+json","transfer-encoding":"chunked","connection":"keep-alive","set-cookie":["zalb_46512fd555=bbdfb771565421abbe10f7a180903d28; Path=/","ZD_CSRF_TOKEN=ede980ec-97a5-410a-b086-f4b185cd0a8a;path=/;SameSite=None;Secure;priority=high","_zcsr_tmp=ede980ec-97a5-410a-b086-f4b185cd0a8a;path=/;SameSite=Strict;Secure;priority=high"],"x-content-type-options":"nosniff","x-xss-protection":"1","cache-control":"private,no-cache,no-store,max-age=0,must-revalidate","pragma":"no-cache","expires":"Thu, 01 Jan 1970 00:00:00 GMT","x-frame-options":"DENY","strict-transport-security":"max-age=63072000"}
+
+[info] [2024-07-05T09:46:35.101Z] : 
+[info] [2024-07-05T09:46:35.103Z] : i AppSail(AppSail): URL => https://appsail-10083401023.development.catalystappsail.com
+[info] [2024-07-05T09:46:35.104Z] : √ AppSail(AppSail): deploy successful
+[info] [2024-07-05T09:46:35.105Z] : 
+[info] [2024-07-05T09:46:35.106Z] : √ Catalyst deploy complete!
+[debug] [2024-07-05T09:46:35.106Z] : NO ERRORS REGISTERED
+[debug] [2024-07-05T09:46:35.107Z] : EXEC ENDED with event: deploy, message: success
+[debug] [2024-07-05T09:46:35.107Z] : TOTAL DURATION OF COMMAND EXEC : 10889
+[debug] [2024-07-05T09:46:35.156Z] : >>>> HTTP REQUEST : POST https://api.catalyst.zoho.com/baas/v1/cli/logs 
+<request body omitted>
+
+[debug] [2024-07-05T09:46:36.109Z] : <<<< HTTP RESPONSE : 400
+Response Headers: {"server":"ZGS","date":"Fri, 05 Jul 2024 09:46:36 GMT","content-type":"application/json;charset=ISO-8859-1","content-length":"141","connection":"keep-alive","set-cookie":["zalb_46512fd555=00fd3a8cbff58bc9307e4ac5869875ce; Path=/","JSESSIONID=6CAA19E4D246BE528DC86E349712103E; Path=/; Secure; HttpOnly"],"x-content-type-options":"nosniff","x-xss-protection":"1","x-frame-options":"DENY","strict-transport-security":"max-age=63072000"}
+
+[debug] [2024-07-05T09:46:36.110Z] : Response Body : {"status":"failure","data":{"error_code":"MORE_THAN_MAX_LENGTH","message":"Please check if the length of the input is in the correct range"}}
+
+[debug] [2024-07-05T09:46:36.113Z] : Unable to send debug log to server: HTTP Error: 400, Please check if the length of the input is in the correct range
+[debug] [2024-07-05T09:48:18.218Z] : 
+[debug] [2024-07-05T09:48:18.220Z] : ----------------------------------------------------------------------
+[debug] [2024-07-05T09:48:18.220Z] : Command:      C:\Program Files\nodejs\node.exe C:\Users\ACVL-DIPIN KUMAR\AppData\Roaming\npm\node_modules\zcatalyst-cli\lib\bin\catalyst.js deploy
+[debug] [2024-07-05T09:48:18.220Z] : CLI Version:  1.17.5
+[debug] [2024-07-05T09:48:18.220Z] : Platform:     win32
+[debug] [2024-07-05T09:48:18.220Z] : Node Version: v20.13.1
+[debug] [2024-07-05T09:48:18.221Z] : Time:         Fri Jul 05 2024 15:18:18 GMT+0530 (India Standard Time)
+[debug] [2024-07-05T09:48:18.221Z] : ----------------------------------------------------------------------
+[debug] [2024-07-05T09:48:18.221Z] : 
+[debug] [2024-07-05T09:48:18.803Z] : > authorizing via signed-in user option
+[debug] [2024-07-05T09:48:18.803Z] : > command requires scopes: ["ZohoCatalyst.projects.ALL","ZohoCatalyst.functions.ALL","ZohoCatalyst.webapp.ALL","ZohoCatalyst.appsail.Update"]
+[debug] [2024-07-05T09:48:18.813Z] : >>>> HTTP REQUEST : GET https://api.catalyst.zoho.com/baas/v1/project/23165000000054103 
+
+[debug] [2024-07-05T09:48:19.960Z] : <<<< HTTP RESPONSE : 200
+Response Headers: {"server":"ZGS","date":"Fri, 05 Jul 2024 09:48:19 GMT","content-type":"application/vnd.catalyst.v2+json","transfer-encoding":"chunked","connection":"keep-alive","set-cookie":["zalb_46512fd555=04d9a2d1e2e86744f9516a3e9f805f56; Path=/","ZD_CSRF_TOKEN=52516cb2-17bf-4281-a065-bda55adf0b7f;path=/;SameSite=None;Secure;priority=high","_zcsr_tmp=52516cb2-17bf-4281-a065-bda55adf0b7f;path=/;SameSite=Strict;Secure;priority=high"],"x-content-type-options":"nosniff","x-xss-protection":"1","cache-control":"private,no-cache,no-store,max-age=0,must-revalidate","pragma":"no-cache","expires":"Thu, 01 Jan 1970 00:00:00 GMT","x-frame-options":"DENY","strict-transport-security":"max-age=63072000"}
+
+[debug] [2024-07-05T09:48:19.964Z] : >>>> HTTP REQUEST : GET https://api.catalyst.zoho.com/baas/v1/project/23165000000054103/environment 
+
+[debug] [2024-07-05T09:48:20.251Z] : <<<< HTTP RESPONSE : 200
+Response Headers: {"server":"ZGS","date":"Fri, 05 Jul 2024 09:48:20 GMT","content-type":"application/vnd.catalyst.v2+json","transfer-encoding":"chunked","connection":"keep-alive","set-cookie":["zalb_46512fd555=04d9a2d1e2e86744f9516a3e9f805f56; Path=/","ZD_CSRF_TOKEN=a996b882-6d07-4b83-b690-d1be270a6bb3;path=/;SameSite=None;Secure;priority=high","_zcsr_tmp=a996b882-6d07-4b83-b690-d1be270a6bb3;path=/;SameSite=Strict;Secure;priority=high"],"x-content-type-options":"nosniff","x-xss-protection":"1","cache-control":"private,no-cache,no-store,max-age=0,must-revalidate","pragma":"no-cache","expires":"Thu, 01 Jan 1970 00:00:00 GMT","x-frame-options":"DENY","strict-transport-security":"max-age=63072000"}
+
+[info] [2024-07-05T09:48:20.273Z] : 
+[info] [2024-07-05T09:48:20.274Z] : Executing predeploy script in C:\Users\ACVL-DIPIN KUMAR\Documents\acvluser\ACVL-CREW-BACKEND\appsail-nodejs
+[debug] [2024-07-05T09:48:20.274Z] : Executing command > npm install
+[info] [2024-07-05T09:48:20.274Z] : > npm install
+[debug] [2024-07-05T09:48:23.056Z] : >>>> HTTP REQUEST : PUT https://api.catalyst.zoho.com/baas/v1/project/23165000000054103/appsail/upsert 
+
+[debug] [2024-07-05T09:48:31.778Z] : <<<< HTTP RESPONSE : 200
+Response Headers: {"server":"ZGS","date":"Fri, 05 Jul 2024 09:48:31 GMT","content-type":"application/vnd.catalyst.v2+json","transfer-encoding":"chunked","connection":"keep-alive","set-cookie":["zalb_46512fd555=63dd9cf89a6678b816d9580ec827ee61; Path=/","ZD_CSRF_TOKEN=5ad34d99-a1f8-4c74-9a05-76a05bb9ae54;path=/;SameSite=None;Secure;priority=high","_zcsr_tmp=5ad34d99-a1f8-4c74-9a05-76a05bb9ae54;path=/;SameSite=Strict;Secure;priority=high"],"x-content-type-options":"nosniff","x-xss-protection":"1","cache-control":"private,no-cache,no-store,max-age=0,must-revalidate","pragma":"no-cache","expires":"Thu, 01 Jan 1970 00:00:00 GMT","x-frame-options":"DENY","strict-transport-security":"max-age=63072000"}
+
+[info] [2024-07-05T09:48:31.781Z] : 
+[info] [2024-07-05T09:48:31.782Z] : i AppSail(AppSail): URL => https://appsail-10083401023.development.catalystappsail.com
+[info] [2024-07-05T09:48:31.784Z] : √ AppSail(AppSail): deploy successful
+[info] [2024-07-05T09:48:31.784Z] : 
+[info] [2024-07-05T09:48:31.785Z] : √ Catalyst deploy complete!
+[debug] [2024-07-05T09:48:31.786Z] : NO ERRORS REGISTERED
+[debug] [2024-07-05T09:48:31.786Z] : EXEC ENDED with event: deploy, message: success
+[debug] [2024-07-05T09:48:31.786Z] : TOTAL DURATION OF COMMAND EXEC : 12992
+[debug] [2024-07-05T09:48:31.838Z] : >>>> HTTP REQUEST : POST https://api.catalyst.zoho.com/baas/v1/cli/logs 
+<request body omitted>
+
+[debug] [2024-07-05T09:48:32.559Z] : <<<< HTTP RESPONSE : 400
+Response Headers: {"server":"ZGS","date":"Fri, 05 Jul 2024 09:48:32 GMT","content-type":"application/json;charset=ISO-8859-1","content-length":"141","connection":"keep-alive","set-cookie":["zalb_46512fd555=04d9a2d1e2e86744f9516a3e9f805f56; Path=/","JSESSIONID=A0E15BC135AAED2BB8C31E15C1E15522; Path=/; Secure; HttpOnly"],"x-content-type-options":"nosniff","x-xss-protection":"1","x-frame-options":"DENY","strict-transport-security":"max-age=63072000"}
+
+[debug] [2024-07-05T09:48:32.559Z] : Response Body : {"status":"failure","data":{"error_code":"MORE_THAN_MAX_LENGTH","message":"Please check if the length of the input is in the correct range"}}
+
+[debug] [2024-07-05T09:48:32.562Z] : Unable to send debug log to server: HTTP Error: 400, Please check if the length of the input is in the correct range
+[debug] [2024-07-05T09:54:44.190Z] : 
+[debug] [2024-07-05T09:54:44.192Z] : ----------------------------------------------------------------------
+[debug] [2024-07-05T09:54:44.192Z] : Command:      C:\Program Files\nodejs\node.exe C:\Users\ACVL-DIPIN KUMAR\AppData\Roaming\npm\node_modules\zcatalyst-cli\lib\bin\catalyst.js deploy
+[debug] [2024-07-05T09:54:44.192Z] : CLI Version:  1.17.5
+[debug] [2024-07-05T09:54:44.192Z] : Platform:     win32
+[debug] [2024-07-05T09:54:44.193Z] : Node Version: v20.13.1
+[debug] [2024-07-05T09:54:44.193Z] : Time:         Fri Jul 05 2024 15:24:44 GMT+0530 (India Standard Time)
+[debug] [2024-07-05T09:54:44.193Z] : ----------------------------------------------------------------------
+[debug] [2024-07-05T09:54:44.193Z] : 
+[debug] [2024-07-05T09:54:44.793Z] : > authorizing via signed-in user option
+[debug] [2024-07-05T09:54:44.793Z] : > command requires scopes: ["ZohoCatalyst.projects.ALL","ZohoCatalyst.functions.ALL","ZohoCatalyst.webapp.ALL","ZohoCatalyst.appsail.Update"]
+[debug] [2024-07-05T09:54:44.807Z] : >>>> HTTP REQUEST : GET https://api.catalyst.zoho.com/baas/v1/project/23165000000054103 
+
+[debug] [2024-07-05T09:54:45.910Z] : <<<< HTTP RESPONSE : 200
+Response Headers: {"server":"ZGS","date":"Fri, 05 Jul 2024 09:54:45 GMT","content-type":"application/vnd.catalyst.v2+json","transfer-encoding":"chunked","connection":"keep-alive","set-cookie":["zalb_46512fd555=00fd3a8cbff58bc9307e4ac5869875ce; Path=/","ZD_CSRF_TOKEN=baf73767-afec-4268-bf0a-05012ba81d74;path=/;SameSite=None;Secure;priority=high","_zcsr_tmp=baf73767-afec-4268-bf0a-05012ba81d74;path=/;SameSite=Strict;Secure;priority=high"],"x-content-type-options":"nosniff","x-xss-protection":"1","cache-control":"private,no-cache,no-store,max-age=0,must-revalidate","pragma":"no-cache","expires":"Thu, 01 Jan 1970 00:00:00 GMT","x-frame-options":"DENY","strict-transport-security":"max-age=63072000"}
+
+[debug] [2024-07-05T09:54:45.914Z] : >>>> HTTP REQUEST : GET https://api.catalyst.zoho.com/baas/v1/project/23165000000054103/environment 
+
+[debug] [2024-07-05T09:54:46.238Z] : <<<< HTTP RESPONSE : 200
+Response Headers: {"server":"ZGS","date":"Fri, 05 Jul 2024 09:54:46 GMT","content-type":"application/vnd.catalyst.v2+json","transfer-encoding":"chunked","connection":"keep-alive","set-cookie":["zalb_46512fd555=bbdfb771565421abbe10f7a180903d28; Path=/","ZD_CSRF_TOKEN=caec18d8-020a-414c-b52e-f11dc89acbd2;path=/;SameSite=None;Secure;priority=high","_zcsr_tmp=caec18d8-020a-414c-b52e-f11dc89acbd2;path=/;SameSite=Strict;Secure;priority=high"],"x-content-type-options":"nosniff","x-xss-protection":"1","cache-control":"private,no-cache,no-store,max-age=0,must-revalidate","pragma":"no-cache","expires":"Thu, 01 Jan 1970 00:00:00 GMT","x-frame-options":"DENY","strict-transport-security":"max-age=63072000"}
+
+[info] [2024-07-05T09:54:46.259Z] : 
+[info] [2024-07-05T09:54:46.259Z] : Executing predeploy script in C:\Users\ACVL-DIPIN KUMAR\Documents\acvluser\ACVL-CREW-BACKEND\appsail-nodejs
+[debug] [2024-07-05T09:54:46.259Z] : Executing command > npm install
+[info] [2024-07-05T09:54:46.259Z] : > npm install
+[debug] [2024-07-05T09:54:49.049Z] : >>>> HTTP REQUEST : PUT https://api.catalyst.zoho.com/baas/v1/project/23165000000054103/appsail/upsert 
+
+[debug] [2024-07-05T09:54:56.057Z] : <<<< HTTP RESPONSE : 200
+Response Headers: {"server":"ZGS","date":"Fri, 05 Jul 2024 09:54:55 GMT","content-type":"application/vnd.catalyst.v2+json","transfer-encoding":"chunked","connection":"keep-alive","set-cookie":["zalb_46512fd555=63dd9cf89a6678b816d9580ec827ee61; Path=/","ZD_CSRF_TOKEN=388cee98-a989-4f45-a44c-7689359a3538;path=/;SameSite=None;Secure;priority=high","_zcsr_tmp=388cee98-a989-4f45-a44c-7689359a3538;path=/;SameSite=Strict;Secure;priority=high"],"x-content-type-options":"nosniff","x-xss-protection":"1","cache-control":"private,no-cache,no-store,max-age=0,must-revalidate","pragma":"no-cache","expires":"Thu, 01 Jan 1970 00:00:00 GMT","x-frame-options":"DENY","strict-transport-security":"max-age=63072000"}
+
+[info] [2024-07-05T09:54:56.059Z] : 
+[info] [2024-07-05T09:54:56.060Z] : i AppSail(AppSail): URL => https://appsail-10083401023.development.catalystappsail.com
+[info] [2024-07-05T09:54:56.060Z] : √ AppSail(AppSail): deploy successful
+[info] [2024-07-05T09:54:56.061Z] : 
+[info] [2024-07-05T09:54:56.061Z] : √ Catalyst deploy complete!
+[debug] [2024-07-05T09:54:56.062Z] : NO ERRORS REGISTERED
+[debug] [2024-07-05T09:54:56.062Z] : EXEC ENDED with event: deploy, message: success
+[debug] [2024-07-05T09:54:56.062Z] : TOTAL DURATION OF COMMAND EXEC : 11280
+[debug] [2024-07-05T09:54:56.101Z] : >>>> HTTP REQUEST : POST https://api.catalyst.zoho.com/baas/v1/cli/logs 
+<request body omitted>
+
+[debug] [2024-07-05T09:54:57.172Z] : <<<< HTTP RESPONSE : 400
+Response Headers: {"server":"ZGS","date":"Fri, 05 Jul 2024 09:54:57 GMT","content-type":"application/json;charset=ISO-8859-1","content-length":"141","connection":"keep-alive","set-cookie":["zalb_46512fd555=00fd3a8cbff58bc9307e4ac5869875ce; Path=/","JSESSIONID=728A549BF44D82CB341486ECA85DF3CD; Path=/; Secure; HttpOnly"],"x-content-type-options":"nosniff","x-xss-protection":"1","x-frame-options":"DENY","strict-transport-security":"max-age=63072000"}
+
+[debug] [2024-07-05T09:54:57.173Z] : Response Body : {"status":"failure","data":{"error_code":"MORE_THAN_MAX_LENGTH","message":"Please check if the length of the input is in the correct range"}}
+
+[debug] [2024-07-05T09:54:57.176Z] : Unable to send debug log to server: HTTP Error: 400, Please check if the length of the input is in the correct range
+[debug] [2024-07-05T10:03:22.324Z] : 
+[debug] [2024-07-05T10:03:22.325Z] : ----------------------------------------------------------------------
+[debug] [2024-07-05T10:03:22.326Z] : Command:      C:\Program Files\nodejs\node.exe C:\Users\ACVL-DIPIN KUMAR\AppData\Roaming\npm\node_modules\zcatalyst-cli\lib\bin\catalyst.js deploy
+[debug] [2024-07-05T10:03:22.326Z] : CLI Version:  1.17.5
+[debug] [2024-07-05T10:03:22.326Z] : Platform:     win32
+[debug] [2024-07-05T10:03:22.326Z] : Node Version: v20.13.1
+[debug] [2024-07-05T10:03:22.326Z] : Time:         Fri Jul 05 2024 15:33:22 GMT+0530 (India Standard Time)
+[debug] [2024-07-05T10:03:22.326Z] : ----------------------------------------------------------------------
+[debug] [2024-07-05T10:03:22.327Z] : 
+[debug] [2024-07-05T10:03:23.065Z] : > authorizing via signed-in user option
+[debug] [2024-07-05T10:03:23.066Z] : > command requires scopes: ["ZohoCatalyst.projects.ALL","ZohoCatalyst.functions.ALL","ZohoCatalyst.webapp.ALL","ZohoCatalyst.appsail.Update"]
+[debug] [2024-07-05T10:03:23.083Z] : >>>> HTTP REQUEST : GET https://api.catalyst.zoho.com/baas/v1/project/23165000000054103 
+
+[debug] [2024-07-05T10:03:24.135Z] : <<<< HTTP RESPONSE : 200
+Response Headers: {"server":"ZGS","date":"Fri, 05 Jul 2024 10:03:24 GMT","content-type":"application/vnd.catalyst.v2+json","transfer-encoding":"chunked","connection":"keep-alive","set-cookie":["zalb_46512fd555=04d9a2d1e2e86744f9516a3e9f805f56; Path=/","ZD_CSRF_TOKEN=2a3c58d8-3f59-4542-b288-8aecd6679176;path=/;SameSite=None;Secure;priority=high","_zcsr_tmp=2a3c58d8-3f59-4542-b288-8aecd6679176;path=/;SameSite=Strict;Secure;priority=high"],"x-content-type-options":"nosniff","x-xss-protection":"1","cache-control":"private,no-cache,no-store,max-age=0,must-revalidate","pragma":"no-cache","expires":"Thu, 01 Jan 1970 00:00:00 GMT","x-frame-options":"DENY","strict-transport-security":"max-age=63072000"}
+
+[debug] [2024-07-05T10:03:24.144Z] : >>>> HTTP REQUEST : GET https://api.catalyst.zoho.com/baas/v1/project/23165000000054103/environment 
+
+[debug] [2024-07-05T10:03:24.440Z] : <<<< HTTP RESPONSE : 200
+Response Headers: {"server":"ZGS","date":"Fri, 05 Jul 2024 10:03:24 GMT","content-type":"application/vnd.catalyst.v2+json","transfer-encoding":"chunked","connection":"keep-alive","set-cookie":["zalb_46512fd555=00fd3a8cbff58bc9307e4ac5869875ce; Path=/","ZD_CSRF_TOKEN=f8095c61-d3e5-4833-9791-7860cc9c372b;path=/;SameSite=None;Secure;priority=high","_zcsr_tmp=f8095c61-d3e5-4833-9791-7860cc9c372b;path=/;SameSite=Strict;Secure;priority=high"],"x-content-type-options":"nosniff","x-xss-protection":"1","cache-control":"private,no-cache,no-store,max-age=0,must-revalidate","pragma":"no-cache","expires":"Thu, 01 Jan 1970 00:00:00 GMT","x-frame-options":"DENY","strict-transport-security":"max-age=63072000"}
+
+[info] [2024-07-05T10:03:24.467Z] : 
+[info] [2024-07-05T10:03:24.468Z] : Executing predeploy script in C:\Users\ACVL-DIPIN KUMAR\Documents\acvluser\ACVL-CREW-BACKEND\appsail-nodejs
+[debug] [2024-07-05T10:03:24.469Z] : Executing command > npm install
+[info] [2024-07-05T10:03:24.469Z] : > npm install
+[debug] [2024-07-05T10:03:27.496Z] : >>>> HTTP REQUEST : PUT https://api.catalyst.zoho.com/baas/v1/project/23165000000054103/appsail/upsert 
+
+[debug] [2024-07-05T10:03:33.542Z] : <<<< HTTP RESPONSE : 200
+Response Headers: {"server":"ZGS","date":"Fri, 05 Jul 2024 10:03:33 GMT","content-type":"application/vnd.catalyst.v2+json","transfer-encoding":"chunked","connection":"keep-alive","set-cookie":["zalb_46512fd555=04d9a2d1e2e86744f9516a3e9f805f56; Path=/","ZD_CSRF_TOKEN=3fdf8793-5137-4b42-9f7e-6c1f523b29c8;path=/;SameSite=None;Secure;priority=high","_zcsr_tmp=3fdf8793-5137-4b42-9f7e-6c1f523b29c8;path=/;SameSite=Strict;Secure;priority=high"],"x-content-type-options":"nosniff","x-xss-protection":"1","cache-control":"private,no-cache,no-store,max-age=0,must-revalidate","pragma":"no-cache","expires":"Thu, 01 Jan 1970 00:00:00 GMT","x-frame-options":"DENY","strict-transport-security":"max-age=63072000"}
+
+[info] [2024-07-05T10:03:33.545Z] : 
+[info] [2024-07-05T10:03:33.546Z] : i AppSail(AppSail): URL => https://appsail-10083401023.development.catalystappsail.com
+[info] [2024-07-05T10:03:33.546Z] : √ AppSail(AppSail): deploy successful
+[info] [2024-07-05T10:03:33.546Z] : 
+[info] [2024-07-05T10:03:33.547Z] : √ Catalyst deploy complete!
+[debug] [2024-07-05T10:03:33.547Z] : NO ERRORS REGISTERED
+[debug] [2024-07-05T10:03:33.548Z] : EXEC ENDED with event: deploy, message: success
+[debug] [2024-07-05T10:03:33.548Z] : TOTAL DURATION OF COMMAND EXEC : 10496
+[debug] [2024-07-05T10:03:33.588Z] : >>>> HTTP REQUEST : POST https://api.catalyst.zoho.com/baas/v1/cli/logs 
+<request body omitted>
+
+[debug] [2024-07-05T10:03:34.259Z] : <<<< HTTP RESPONSE : 400
+Response Headers: {"server":"ZGS","date":"Fri, 05 Jul 2024 10:03:34 GMT","content-type":"application/json;charset=ISO-8859-1","content-length":"141","connection":"keep-alive","set-cookie":["zalb_46512fd555=63dd9cf89a6678b816d9580ec827ee61; Path=/","JSESSIONID=67BBDB0A50573282B84E3BACFA7745FE; Path=/; Secure; HttpOnly"],"x-content-type-options":"nosniff","x-xss-protection":"1","x-frame-options":"DENY","strict-transport-security":"max-age=63072000"}
+
+[debug] [2024-07-05T10:03:34.260Z] : Response Body : {"status":"failure","data":{"error_code":"MORE_THAN_MAX_LENGTH","message":"Please check if the length of the input is in the correct range"}}
+
+[debug] [2024-07-05T10:03:34.263Z] : Unable to send debug log to server: HTTP Error: 400, Please check if the length of the input is in the correct range
+[debug] [2024-07-05T10:46:19.629Z] : 
+[debug] [2024-07-05T10:46:19.630Z] : ----------------------------------------------------------------------
+[debug] [2024-07-05T10:46:19.631Z] : Command:      C:\Program Files\nodejs\node.exe C:\Users\ACVL-DIPIN KUMAR\AppData\Roaming\npm\node_modules\zcatalyst-cli\lib\bin\catalyst.js deploy
+[debug] [2024-07-05T10:46:19.631Z] : CLI Version:  1.17.5
+[debug] [2024-07-05T10:46:19.631Z] : Platform:     win32
+[debug] [2024-07-05T10:46:19.631Z] : Node Version: v20.13.1
+[debug] [2024-07-05T10:46:19.632Z] : Time:         Fri Jul 05 2024 16:16:19 GMT+0530 (India Standard Time)
+[debug] [2024-07-05T10:46:19.632Z] : ----------------------------------------------------------------------
+[debug] [2024-07-05T10:46:19.632Z] : 
+[debug] [2024-07-05T10:46:20.180Z] : > authorizing via signed-in user option
+[debug] [2024-07-05T10:46:20.180Z] : > command requires scopes: ["ZohoCatalyst.projects.ALL","ZohoCatalyst.functions.ALL","ZohoCatalyst.webapp.ALL","ZohoCatalyst.appsail.Update"]
+[debug] [2024-07-05T10:46:20.193Z] : > refreshing access token <
+[debug] [2024-07-05T10:46:20.194Z] : >>>> HTTP REQUEST : POST https://accounts.zoho.com/oauth/v2/token 
+<request body omitted>
+
+[debug] [2024-07-05T10:46:21.027Z] : <<<< HTTP RESPONSE : 200
+Response Headers: {"server":"ZGS","date":"Fri, 05 Jul 2024 10:46:21 GMT","content-type":"application/json;charset=UTF-8","content-length":"1914","connection":"keep-alive","set-cookie":["zalb_b266a5bf57=9f371135a524e2d1f51eb9f41fa26c60; Path=/","iamcsr=ec3284f0-2b24-4f2a-b689-baff28ce17e4;path=/;SameSite=None;Secure;priority=high","_zcsr_tmp=ec3284f0-2b24-4f2a-b689-baff28ce17e4;path=/;SameSite=Strict;Secure;priority=high"],"cache-control":"no-store","x-content-type-options":"nosniff","pragma":"no-cache","x-frame-options":"SAMEORIGIN","vary":"accept-encoding","content-language":"en-US","strict-transport-security":"max-age=63072000"}
+
+[debug] [2024-07-05T10:46:21.045Z] : >>>> HTTP REQUEST : GET https://api.catalyst.zoho.com/baas/v1/project/23165000000054103 
+
+[debug] [2024-07-05T10:46:21.964Z] : <<<< HTTP RESPONSE : 200
+Response Headers: {"server":"ZGS","date":"Fri, 05 Jul 2024 10:46:22 GMT","content-type":"application/vnd.catalyst.v2+json","transfer-encoding":"chunked","connection":"keep-alive","set-cookie":["zalb_46512fd555=00fd3a8cbff58bc9307e4ac5869875ce; Path=/","ZD_CSRF_TOKEN=52c09d84-2aba-43c0-8724-b6e327e86801;path=/;SameSite=None;Secure;priority=high","_zcsr_tmp=52c09d84-2aba-43c0-8724-b6e327e86801;path=/;SameSite=Strict;Secure;priority=high"],"x-content-type-options":"nosniff","x-xss-protection":"1","cache-control":"private,no-cache,no-store,max-age=0,must-revalidate","pragma":"no-cache","expires":"Thu, 01 Jan 1970 00:00:00 GMT","x-frame-options":"DENY","strict-transport-security":"max-age=63072000"}
+
+[debug] [2024-07-05T10:46:21.967Z] : >>>> HTTP REQUEST : GET https://api.catalyst.zoho.com/baas/v1/project/23165000000054103/environment 
+
+[debug] [2024-07-05T10:46:22.277Z] : <<<< HTTP RESPONSE : 200
+Response Headers: {"server":"ZGS","date":"Fri, 05 Jul 2024 10:46:22 GMT","content-type":"application/vnd.catalyst.v2+json","transfer-encoding":"chunked","connection":"keep-alive","set-cookie":["zalb_46512fd555=bbdfb771565421abbe10f7a180903d28; Path=/","ZD_CSRF_TOKEN=f6d56f87-a35e-41ec-9ef8-9b8305685ae7;path=/;SameSite=None;Secure;priority=high","_zcsr_tmp=f6d56f87-a35e-41ec-9ef8-9b8305685ae7;path=/;SameSite=Strict;Secure;priority=high"],"x-content-type-options":"nosniff","x-xss-protection":"1","cache-control":"private,no-cache,no-store,max-age=0,must-revalidate","pragma":"no-cache","expires":"Thu, 01 Jan 1970 00:00:00 GMT","x-frame-options":"DENY","strict-transport-security":"max-age=63072000"}
+
+[info] [2024-07-05T10:46:22.291Z] : 
+[info] [2024-07-05T10:46:22.291Z] : Executing predeploy script in C:\Users\ACVL-DIPIN KUMAR\Documents\acvluser\ACVL-CREW-BACKEND\appsail-nodejs
+[debug] [2024-07-05T10:46:22.291Z] : Executing command > npm install
+[info] [2024-07-05T10:46:22.291Z] : > npm install
+[debug] [2024-07-05T10:46:24.526Z] : >>>> HTTP REQUEST : PUT https://api.catalyst.zoho.com/baas/v1/project/23165000000054103/appsail/upsert 
+
+[debug] [2024-07-05T10:46:35.421Z] : <<<< HTTP RESPONSE : 200
+Response Headers: {"server":"ZGS","date":"Fri, 05 Jul 2024 10:46:35 GMT","content-type":"application/vnd.catalyst.v2+json","transfer-encoding":"chunked","connection":"keep-alive","set-cookie":["zalb_46512fd555=63dd9cf89a6678b816d9580ec827ee61; Path=/","ZD_CSRF_TOKEN=d57c3fda-6a14-4887-9acd-6c4ca39c5d06;path=/;SameSite=None;Secure;priority=high","_zcsr_tmp=d57c3fda-6a14-4887-9acd-6c4ca39c5d06;path=/;SameSite=Strict;Secure;priority=high"],"x-content-type-options":"nosniff","x-xss-protection":"1","cache-control":"private,no-cache,no-store,max-age=0,must-revalidate","pragma":"no-cache","expires":"Thu, 01 Jan 1970 00:00:00 GMT","x-frame-options":"DENY","strict-transport-security":"max-age=63072000"}
+
+[info] [2024-07-05T10:46:35.427Z] : 
+[info] [2024-07-05T10:46:35.428Z] : i AppSail(AppSail): URL => https://appsail-10083401023.development.catalystappsail.com
+[info] [2024-07-05T10:46:35.428Z] : √ AppSail(AppSail): deploy successful
+[info] [2024-07-05T10:46:35.429Z] : 
+[info] [2024-07-05T10:46:35.429Z] : √ Catalyst deploy complete!
+[debug] [2024-07-05T10:46:35.430Z] : NO ERRORS REGISTERED
+[debug] [2024-07-05T10:46:35.430Z] : EXEC ENDED with event: deploy, message: success
+[debug] [2024-07-05T10:46:35.430Z] : TOTAL DURATION OF COMMAND EXEC : 15261
+[debug] [2024-07-05T10:46:35.474Z] : >>>> HTTP REQUEST : POST https://api.catalyst.zoho.com/baas/v1/cli/logs 
+<request body omitted>
+
+[debug] [2024-07-05T10:46:36.092Z] : <<<< HTTP RESPONSE : 400
+Response Headers: {"server":"ZGS","date":"Fri, 05 Jul 2024 10:46:36 GMT","content-type":"application/json;charset=ISO-8859-1","content-length":"141","connection":"keep-alive","set-cookie":["zalb_46512fd555=bbdfb771565421abbe10f7a180903d28; Path=/","JSESSIONID=F6BB64CF9E81933A7C7842D126494F5D; Path=/; Secure; HttpOnly"],"x-content-type-options":"nosniff","x-xss-protection":"1","x-frame-options":"DENY","strict-transport-security":"max-age=63072000"}
+
+[debug] [2024-07-05T10:46:36.093Z] : Response Body : {"status":"failure","data":{"error_code":"MORE_THAN_MAX_LENGTH","message":"Please check if the length of the input is in the correct range"}}
+
+[debug] [2024-07-05T10:46:36.096Z] : Unable to send debug log to server: HTTP Error: 400, Please check if the length of the input is in the correct range
+[debug] [2024-07-05T12:12:39.774Z] : 
+[debug] [2024-07-05T12:12:39.775Z] : ----------------------------------------------------------------------
+[debug] [2024-07-05T12:12:39.775Z] : Command:      C:\Program Files\nodejs\node.exe C:\Users\ACVL-DIPIN KUMAR\AppData\Roaming\npm\node_modules\zcatalyst-cli\lib\bin\catalyst.js deploy
+[debug] [2024-07-05T12:12:39.775Z] : CLI Version:  1.17.5
+[debug] [2024-07-05T12:12:39.775Z] : Platform:     win32
+[debug] [2024-07-05T12:12:39.776Z] : Node Version: v20.13.1
+[debug] [2024-07-05T12:12:39.776Z] : Time:         Fri Jul 05 2024 17:42:39 GMT+0530 (India Standard Time)
+[debug] [2024-07-05T12:12:39.776Z] : ----------------------------------------------------------------------
+[debug] [2024-07-05T12:12:39.776Z] : 
+[debug] [2024-07-05T12:12:40.268Z] : > authorizing via signed-in user option
+[debug] [2024-07-05T12:12:40.269Z] : > command requires scopes: ["ZohoCatalyst.projects.ALL","ZohoCatalyst.functions.ALL","ZohoCatalyst.webapp.ALL","ZohoCatalyst.appsail.Update"]
+[debug] [2024-07-05T12:12:40.278Z] : >>>> HTTP REQUEST : GET https://api.catalyst.zoho.com/baas/v1/project/23165000000054103 
+
+[debug] [2024-07-05T12:12:41.234Z] : <<<< HTTP RESPONSE : 200
+Response Headers: {"server":"ZGS","date":"Fri, 05 Jul 2024 12:12:41 GMT","content-type":"application/vnd.catalyst.v2+json","transfer-encoding":"chunked","connection":"keep-alive","set-cookie":["zalb_46512fd555=63dd9cf89a6678b816d9580ec827ee61; Path=/","ZD_CSRF_TOKEN=1f6862e8-d391-4690-861b-6ded5af4233a;path=/;SameSite=None;Secure;priority=high","_zcsr_tmp=1f6862e8-d391-4690-861b-6ded5af4233a;path=/;SameSite=Strict;Secure;priority=high"],"x-content-type-options":"nosniff","x-xss-protection":"1","cache-control":"private,no-cache,no-store,max-age=0,must-revalidate","pragma":"no-cache","expires":"Thu, 01 Jan 1970 00:00:00 GMT","x-frame-options":"DENY","strict-transport-security":"max-age=63072000"}
+
+[debug] [2024-07-05T12:12:41.240Z] : >>>> HTTP REQUEST : GET https://api.catalyst.zoho.com/baas/v1/project/23165000000054103/environment 
+
+[debug] [2024-07-05T12:12:41.533Z] : <<<< HTTP RESPONSE : 200
+Response Headers: {"server":"ZGS","date":"Fri, 05 Jul 2024 12:12:41 GMT","content-type":"application/vnd.catalyst.v2+json","transfer-encoding":"chunked","connection":"keep-alive","set-cookie":["zalb_46512fd555=04d9a2d1e2e86744f9516a3e9f805f56; Path=/","ZD_CSRF_TOKEN=36013691-88cf-4ffe-9a96-a9bf74f4f26e;path=/;SameSite=None;Secure;priority=high","_zcsr_tmp=36013691-88cf-4ffe-9a96-a9bf74f4f26e;path=/;SameSite=Strict;Secure;priority=high"],"x-content-type-options":"nosniff","x-xss-protection":"1","cache-control":"private,no-cache,no-store,max-age=0,must-revalidate","pragma":"no-cache","expires":"Thu, 01 Jan 1970 00:00:00 GMT","x-frame-options":"DENY","strict-transport-security":"max-age=63072000"}
+
+[info] [2024-07-05T12:12:41.545Z] : 
+[info] [2024-07-05T12:12:41.545Z] : Executing predeploy script in C:\Users\ACVL-DIPIN KUMAR\Documents\acvluser\ACVL-CREW-BACKEND\appsail-nodejs
+[debug] [2024-07-05T12:12:41.545Z] : Executing command > npm install
+[info] [2024-07-05T12:12:41.546Z] : > npm install
+[debug] [2024-07-05T12:12:43.670Z] : >>>> HTTP REQUEST : PUT https://api.catalyst.zoho.com/baas/v1/project/23165000000054103/appsail/upsert 
+
+[debug] [2024-07-05T12:12:53.828Z] : <<<< HTTP RESPONSE : 200
+Response Headers: {"server":"ZGS","date":"Fri, 05 Jul 2024 12:12:53 GMT","content-type":"application/vnd.catalyst.v2+json","transfer-encoding":"chunked","connection":"keep-alive","set-cookie":["zalb_46512fd555=00fd3a8cbff58bc9307e4ac5869875ce; Path=/","ZD_CSRF_TOKEN=beffccb4-817d-473c-a4e9-968e61aa69c7;path=/;SameSite=None;Secure;priority=high","_zcsr_tmp=beffccb4-817d-473c-a4e9-968e61aa69c7;path=/;SameSite=Strict;Secure;priority=high"],"x-content-type-options":"nosniff","x-xss-protection":"1","cache-control":"private,no-cache,no-store,max-age=0,must-revalidate","pragma":"no-cache","expires":"Thu, 01 Jan 1970 00:00:00 GMT","x-frame-options":"DENY","strict-transport-security":"max-age=63072000"}
+
+[info] [2024-07-05T12:12:53.835Z] : 
+[info] [2024-07-05T12:12:53.837Z] : i AppSail(AppSail): URL => https://appsail-10083401023.development.catalystappsail.com
+[info] [2024-07-05T12:12:53.838Z] : √ AppSail(AppSail): deploy successful
+[info] [2024-07-05T12:12:53.838Z] : 
+[info] [2024-07-05T12:12:53.839Z] : √ Catalyst deploy complete!
+[debug] [2024-07-05T12:12:53.839Z] : NO ERRORS REGISTERED
+[debug] [2024-07-05T12:12:53.840Z] : EXEC ENDED with event: deploy, message: success
+[debug] [2024-07-05T12:12:53.840Z] : TOTAL DURATION OF COMMAND EXEC : 13579
+[debug] [2024-07-05T12:12:53.888Z] : >>>> HTTP REQUEST : POST https://api.catalyst.zoho.com/baas/v1/cli/logs 
+<request body omitted>
+
+[debug] [2024-07-05T12:12:55.278Z] : <<<< HTTP RESPONSE : 400
+Response Headers: {"server":"ZGS","date":"Fri, 05 Jul 2024 12:12:55 GMT","content-type":"application/json;charset=ISO-8859-1","content-length":"141","connection":"keep-alive","set-cookie":["zalb_46512fd555=bbdfb771565421abbe10f7a180903d28; Path=/","JSESSIONID=00AA60F110C4986D986B092874F69BCC; Path=/; Secure; HttpOnly"],"x-content-type-options":"nosniff","x-xss-protection":"1","x-frame-options":"DENY","strict-transport-security":"max-age=63072000"}
+
+[debug] [2024-07-05T12:12:55.279Z] : Response Body : {"status":"failure","data":{"error_code":"MORE_THAN_MAX_LENGTH","message":"Please check if the length of the input is in the correct range"}}
+
+[debug] [2024-07-05T12:12:55.280Z] : Unable to send debug log to server: HTTP Error: 400, Please check if the length of the input is in the correct range
+[debug] [2024-07-05T12:15:16.004Z] : 
+[debug] [2024-07-05T12:15:16.005Z] : ----------------------------------------------------------------------
+[debug] [2024-07-05T12:15:16.006Z] : Command:      C:\Program Files\nodejs\node.exe C:\Users\ACVL-DIPIN KUMAR\AppData\Roaming\npm\node_modules\zcatalyst-cli\lib\bin\catalyst.js deploy
+[debug] [2024-07-05T12:15:16.006Z] : CLI Version:  1.17.5
+[debug] [2024-07-05T12:15:16.006Z] : Platform:     win32
+[debug] [2024-07-05T12:15:16.006Z] : Node Version: v20.13.1
+[debug] [2024-07-05T12:15:16.006Z] : Time:         Fri Jul 05 2024 17:45:16 GMT+0530 (India Standard Time)
+[debug] [2024-07-05T12:15:16.007Z] : ----------------------------------------------------------------------
+[debug] [2024-07-05T12:15:16.007Z] : 
+[debug] [2024-07-05T12:15:16.497Z] : > authorizing via signed-in user option
+[debug] [2024-07-05T12:15:16.498Z] : > command requires scopes: ["ZohoCatalyst.projects.ALL","ZohoCatalyst.functions.ALL","ZohoCatalyst.webapp.ALL","ZohoCatalyst.appsail.Update"]
+[debug] [2024-07-05T12:15:16.506Z] : >>>> HTTP REQUEST : GET https://api.catalyst.zoho.com/baas/v1/project/23165000000054103 
+
+[debug] [2024-07-05T12:15:17.428Z] : <<<< HTTP RESPONSE : 200
+Response Headers: {"server":"ZGS","date":"Fri, 05 Jul 2024 12:15:17 GMT","content-type":"application/vnd.catalyst.v2+json","transfer-encoding":"chunked","connection":"keep-alive","set-cookie":["zalb_46512fd555=bbdfb771565421abbe10f7a180903d28; Path=/","ZD_CSRF_TOKEN=d0d06c6f-82b8-4348-b5bf-7f3d05345e34;path=/;SameSite=None;Secure;priority=high","_zcsr_tmp=d0d06c6f-82b8-4348-b5bf-7f3d05345e34;path=/;SameSite=Strict;Secure;priority=high"],"x-content-type-options":"nosniff","x-xss-protection":"1","cache-control":"private,no-cache,no-store,max-age=0,must-revalidate","pragma":"no-cache","expires":"Thu, 01 Jan 1970 00:00:00 GMT","x-frame-options":"DENY","strict-transport-security":"max-age=63072000"}
+
+[debug] [2024-07-05T12:15:17.431Z] : >>>> HTTP REQUEST : GET https://api.catalyst.zoho.com/baas/v1/project/23165000000054103/environment 
+
+[debug] [2024-07-05T12:15:17.767Z] : <<<< HTTP RESPONSE : 200
+Response Headers: {"server":"ZGS","date":"Fri, 05 Jul 2024 12:15:17 GMT","content-type":"application/vnd.catalyst.v2+json","transfer-encoding":"chunked","connection":"keep-alive","set-cookie":["zalb_46512fd555=63dd9cf89a6678b816d9580ec827ee61; Path=/","ZD_CSRF_TOKEN=173222c7-8483-43b2-9a35-e7ee07514984;path=/;SameSite=None;Secure;priority=high","_zcsr_tmp=173222c7-8483-43b2-9a35-e7ee07514984;path=/;SameSite=Strict;Secure;priority=high"],"x-content-type-options":"nosniff","x-xss-protection":"1","cache-control":"private,no-cache,no-store,max-age=0,must-revalidate","pragma":"no-cache","expires":"Thu, 01 Jan 1970 00:00:00 GMT","x-frame-options":"DENY","strict-transport-security":"max-age=63072000"}
+
+[info] [2024-07-05T12:15:17.778Z] : 
+[info] [2024-07-05T12:15:17.779Z] : Executing predeploy script in C:\Users\ACVL-DIPIN KUMAR\Documents\acvluser\ACVL-CREW-BACKEND\appsail-nodejs
+[debug] [2024-07-05T12:15:17.779Z] : Executing command > npm install
+[info] [2024-07-05T12:15:17.779Z] : > npm install
+[debug] [2024-07-05T12:15:19.858Z] : >>>> HTTP REQUEST : PUT https://api.catalyst.zoho.com/baas/v1/project/23165000000054103/appsail/upsert 
+
+[debug] [2024-07-05T12:15:29.550Z] : <<<< HTTP RESPONSE : 200
+Response Headers: {"server":"ZGS","date":"Fri, 05 Jul 2024 12:15:29 GMT","content-type":"application/vnd.catalyst.v2+json","transfer-encoding":"chunked","connection":"keep-alive","set-cookie":["zalb_46512fd555=00fd3a8cbff58bc9307e4ac5869875ce; Path=/","ZD_CSRF_TOKEN=3f70dfc3-17a8-457c-b5fa-e323d838e38f;path=/;SameSite=None;Secure;priority=high","_zcsr_tmp=3f70dfc3-17a8-457c-b5fa-e323d838e38f;path=/;SameSite=Strict;Secure;priority=high"],"x-content-type-options":"nosniff","x-xss-protection":"1","cache-control":"private,no-cache,no-store,max-age=0,must-revalidate","pragma":"no-cache","expires":"Thu, 01 Jan 1970 00:00:00 GMT","x-frame-options":"DENY","strict-transport-security":"max-age=63072000"}
+
+[info] [2024-07-05T12:15:29.552Z] : 
+[info] [2024-07-05T12:15:29.553Z] : i AppSail(AppSail): URL => https://appsail-10083401023.development.catalystappsail.com
+[info] [2024-07-05T12:15:29.554Z] : √ AppSail(AppSail): deploy successful
+[info] [2024-07-05T12:15:29.555Z] : 
+[info] [2024-07-05T12:15:29.555Z] : √ Catalyst deploy complete!
+[debug] [2024-07-05T12:15:29.556Z] : NO ERRORS REGISTERED
+[debug] [2024-07-05T12:15:29.556Z] : EXEC ENDED with event: deploy, message: success
+[debug] [2024-07-05T12:15:29.556Z] : TOTAL DURATION OF COMMAND EXEC : 13066
+[debug] [2024-07-05T12:15:29.610Z] : >>>> HTTP REQUEST : POST https://api.catalyst.zoho.com/baas/v1/cli/logs 
+<request body omitted>
+
+[debug] [2024-07-05T12:15:30.330Z] : <<<< HTTP RESPONSE : 400
+Response Headers: {"server":"ZGS","date":"Fri, 05 Jul 2024 12:15:30 GMT","content-type":"application/json;charset=ISO-8859-1","content-length":"141","connection":"keep-alive","set-cookie":["zalb_46512fd555=63dd9cf89a6678b816d9580ec827ee61; Path=/","JSESSIONID=B552DFAF5466CABB7A977BCA62FC92F9; Path=/; Secure; HttpOnly"],"x-content-type-options":"nosniff","x-xss-protection":"1","x-frame-options":"DENY","strict-transport-security":"max-age=63072000"}
+
+[debug] [2024-07-05T12:15:30.331Z] : Response Body : {"status":"failure","data":{"error_code":"MORE_THAN_MAX_LENGTH","message":"Please check if the length of the input is in the correct range"}}
+
+[debug] [2024-07-05T12:15:30.332Z] : Unable to send debug log to server: HTTP Error: 400, Please check if the length of the input is in the correct range
